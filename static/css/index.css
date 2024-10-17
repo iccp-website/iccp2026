@@ -1,3 +1,12 @@
+:root {
+  /* custom colors */
+  --bg-grey: #e0e0e0;
+  --bg-red: #ffe6e6;
+  --bg-blue: #E6FFFF;
+  --bg-green: #F3FFE6;
+  --bg-purple: #F3E6FF;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
 }
@@ -154,4 +163,8 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+.active-button {
+  background-color: var(--bg-grey);
 }
