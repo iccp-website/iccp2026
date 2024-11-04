@@ -1,1 +1,1 @@
-Homepage of the International Conference on Computational Imaging
+Homepage of ICCP 2025—the international conference on computational imaging.
