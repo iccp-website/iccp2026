@@ -168,3 +168,7 @@ body {
 .active-button {
   background-color: var(--bg-grey);
 }
+
+a.button:hover {
+  background-color: #f5f5f5 !important;
+}
