@@ -47,6 +47,25 @@
         <h2 class="subtitle has-text-centered">
           <a href="#home" class="button">Home</a>
           <a href="#team" class="button">Team</a>
+          <a href="#callforpapers" class="button">Call for Papers</a>
+          <!-- dropdown menu -->
+          <!-- <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <a href="#callforpapers" class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span>Call for Papers &#x25BE</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down"></i>
+                </span>
+              </a>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="#callforpapers/dates" class="dropdown-item">Dates</a>
+                <a href="#callforpapers/guidelines" class="dropdown-item">Guidelines</a>
+                <a href="#callforpapers/policies" class="dropdown-item">Policies</a>
+              </div>
+            </div>
+          </div> -->
           <!-- <a href="#schedule" class="button">Schedule</a> -->
         </h2>
       </div>
@@ -106,27 +125,41 @@
   <script>
     function loadContent() {
       const hash = window.location.hash ? window.location.hash.substring(1) : 'home';
-      const page = `pages/${hash}.html`;
-
+      const page = `pages/${hash.split('/')[0]}.html`; // Only load the main page, ignore anchors
+  
       fetch(page)
-        .then(response => response.text())
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return response.text();
+        })
         .then(data => {
           document.getElementById('content').innerHTML = data;
-
+  
           // Update active button styling
           document.querySelectorAll('.button').forEach(button => button.classList.remove('active-button'));
-          const activeButton = document.querySelector(`a[href="#${hash}"]`);
+          const activeButton = document.querySelector(`a[href="#${hash.split('/')[0]}"]`);
           if (activeButton) {
             activeButton.classList.add('active-button');
           }
+  
+          // Navigate to the anchor if it exists
+          const anchor = hash.split('/')[1];
+          if (anchor) {
+            const target = document.getElementById(anchor);
+            if (target) {
+              target.scrollIntoView(); // Teleport to the section
+            }
+          }
         })
         .catch(error => {
-          document.getElementById('content').innerHTML = "<p>Sorry, the content could not be loaded.</p>";
+          document.getElementById('content').innerHTML = `<p>Sorry, the content could not be loaded.</p>`;
           console.error("Error loading page:", error);
         });
     }
-
-    // Handle navigation without scrolling
+  
+    // Handle main button navigation
     document.querySelectorAll('a.button').forEach(button => {
       button.addEventListener('click', function(event) {
         event.preventDefault();
@@ -136,11 +169,40 @@
       });
     });
 
+  // Handle dropdown menu item clicks
+  document.querySelectorAll('.dropdown-item').forEach(item => {
+    item.addEventListener('click', function(event) {
+      event.preventDefault();
+      const href = this.getAttribute('href');
+      const [pageId, sectionId] = href.substring(1).split('/'); // Split into page and section
+
+      if (window.location.hash !== `#${pageId}`) {
+        // Load the main page first if not already loaded
+        history.pushState(null, null, `#${pageId}`);
+        loadContent();
+        setTimeout(() => {
+          // Navigate to the section once the page is loaded
+          const target = document.getElementById(sectionId);
+          if (target) {
+            target.scrollIntoView(); // Teleport to section
+          }
+        }, 50); // Wait for the content to load
+      } else {
+        // If already on the target page, navigate directly to the section
+        const target = document.getElementById(sectionId);
+        if (target) {
+          target.scrollIntoView(); // Teleport to section
+        }
+      }
+    });
+  });
+  
     // Load content on page load and hash change
     window.addEventListener('load', loadContent);
     window.addEventListener('hashchange', loadContent);
     window.addEventListener('popstate', loadContent);
   </script>
+  
 
 </body>
 </html>
