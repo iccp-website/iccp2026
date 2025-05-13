@@ -172,3 +172,42 @@ body {
 a.button:hover {
   background-color: #f5f5f5 !important;
 }
+
+.course > h4 {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.course > h4.instructor {
+  float: right;
+}
+
+.content > .course > figure {
+  float: right;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  width: 30%;
+}
+
+.course > figure > img {
+  border: 0.1em solid black;
+  border-radius: 6px;
+}
+
+.registerbutton {
+	background-color:#3273dc;
+	color: white;
+	padding: 1rem;
+	border-radius: 6px;
+	font-weight: 700;
+	line-height: 1;
+	font-size: 1.25em;
+	width: fit-content;
+	display: block;
+	border: 0.1em solid #3273dc;
+}
+
+.registerbutton:hover {
+	/* color: black; */
+	border: 0.1em solid black;
+}
