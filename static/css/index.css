@@ -173,6 +173,15 @@ a.button:hover {
   background-color: #f5f5f5 !important;
 }
 
+.section {
+	margin: 6rem auto;
+	padding: 0 1.5rem;
+}
+
+.subsection {
+	margin: 1.5rem 0;
+}
+
 .course > h4 {
   margin: 0 0 1rem 0;
   padding: 0;
@@ -182,7 +191,7 @@ a.button:hover {
   float: right;
 }
 
-.content > .course > figure {
+.subsection > .course > figure {
   float: right;
   margin: 0 0 0 1rem;
   padding: 0;
