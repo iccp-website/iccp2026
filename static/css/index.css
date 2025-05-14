@@ -11,6 +11,14 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+/* nav {
+	margin-bottom: -10vh;
+} */
+
+#content {
+	padding: 20px;
+	min-height: 300px;
+}
 
 .footer .icon-link {
     font-size: 25px;
@@ -175,7 +183,7 @@ a.button:hover {
 
 .section {
 	margin: 6rem auto;
-	padding: 0 1.5rem;
+	padding: 0;
 }
 
 .subsection {
