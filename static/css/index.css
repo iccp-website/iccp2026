@@ -227,3 +227,12 @@ a.button:hover {
 	/* color: black; */
 	border: 0.1em solid black;
 }
+
+/* Table styling for better readability */
+.table.is-striped tbody tr:nth-child(even) {
+    background-color: #f0f0f0 !important;
+}
+
+.table.is-striped tbody tr:hover {
+    background-color: #fcf6ee !important;
+}
