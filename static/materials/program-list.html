@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICCP 2025 Program Schedule</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .day-header {
+            background-color: #fdfdfd;
+            padding: 15px;
+            margin: 20px 0 10px 0;
+            border-radius: 8px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #f1f3f5;
+        }
+        .time {
+            width: 15%;
+            white-space: nowrap;
+        }
+        .session-id {
+            width: 10%;
+            text-align: center;
+        }
+        .description {
+            width: 75%;
+        }
+        tr.white {
+            background-color: #e9ecef !important;
+            font-style: italic;
+        }
+        tr.red {
+            background-color: #f8bbd0 !important;
+        }
+        tr.orange {
+            background-color: #ffe0b1 !important;
+        }
+        tr.green {
+            background-color: #dcedc8 !important;
+        }
+        tr.blue {
+            background-color: #e3f2fd !important;
+        }
+        tr.purple {
+            background-color: #c5cae9 !important;
+        }
+        tr.yellow {
+            background-color: #fff9c4 !important;
+        }
+        .authors {
+            font-style: italic;
+        }
+        .paper-title {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="3" class="day-header" id="monday">Monday, July 21st, 2025</td>
+            </tr>
+
+            <tr class="red" id="monday-opening">
+                <td>8:30-8:50</td>
+                <td></td>
+                <td>Opening & Awards</td>
+            </tr>
+            <tr class="orange" id="monday-keynote">
+                <td>8:50-9:30</td>
+                <td></td>
+                <td>Keynote: Oz Vision: A New Principle for Visual Display, <span class="authors">Austin Roorda</span></td>
+            </tr>
+            <tr class="white">
+                <td>9:30-9:45</td>
+                <td></td>
+                <td>Short Break</td>
+            </tr>
+            <tr class="green" id="monday-morning-invited">
+                <td>9:45-10:45</td>
+                <td></td>
+                <td><strong>Morning Invited Talks</strong></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>MI1</td>
+                <td>Computational Imaging Enables Ultra-Thin Endomicroscopy, <span class="authors">Rafael Piestun</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>MI2</td>
+                <td>Breaking the Speed Barrier: High-Speed Light-Field Microscopy for Kilohertz 3D Imaging and Beyond, <span class="authors">Liang Gao</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>MI3</td>
+                <td>Computational Imaging Enables Efficient Structured Illumination Microscopy, <span class="authors">Chrysanthe Preza</span></td>
+            </tr>
+            <tr class="white">
+                <td>10:45-11:15</td>
+                <td></td>
+                <td>Coffee Break</td>
+            </tr>
+            <tr class="blue">
+                <td>11:15-12:15</td>
+                <td></td>
+                <td><strong>Morning Papers Session: Volumetric Imaging</strong></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP1</td>
+                <td><span class="paper-title">Reconstructing Satellites in 3D from Amateur Telescope Images</span>, <span class="authors">Zhiming Chang, Boyang Liu, Yifei Xia, Youming Guo, Boxin Shi, He Sun</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP2</td>
+                <td><span class="paper-title">Tomographic Sparse View Selection Using the View Covariance Loss</span>, <span class="authors">Jingsong Lin, Amir Koushyar Ziabari, S. V. Venkatakrishnan, Obaidullah Rahman, Gregery T. Buzzard, Charles A. Bouman</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP3</td>
+                <td><span class="paper-title">A Gaussian Parameterization for Direct Atomic Structure Identification in Electron Tomography</span>, <span class="authors">Nalini M Singh, Tiffany Chien, Arthur R. C. McCray, Colin Ophus, Laura Waller</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP4</td>
+                <td><span class="paper-title">Zero-Phase Phasor Fields</span>, <span class="authors">Pablo Luesia-Lahoz, Talha Sultan, Forrest B. Peterson, Andreas Velten, Diego Gutierrez, Adolfo Muñoz</span></td>
+            </tr>
+            <tr class="purple">
+                <td>12:15-12:30</td>
+                <td></td>
+                <td>Monday Poster Spotlights</td>
+            </tr>
+            <tr class="white">
+                <td>12:30-14:00</td>
+                <td></td>
+                <td>Lunch</td>
+            </tr>
+            <tr class="yellow">
+                <td>14:00-15:30</td>
+                <td></td>
+                <td>Monday Posters, Demos & Coffee</td>
+            </tr>
+            <tr class="blue">
+                <td>15:30-16:30</td>
+                <td></td>
+                <td><strong>Afternoon Papers Session: Wave Optics for Imaging & Display</strong></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP5</td>
+                <td><span class="paper-title">Learned Off-Aperture Encoding for Wide Field-of-View RGBD Imaging</span>, <span class="authors">Haoyu Wei, Xin Liu, Yuhui Liu, Qiang Fu, Wolfgang Heidrich, Edmund Y. Lam, Yifan Peng</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP6</td>
+                <td><span class="paper-title">Holospeed: High-Speed Holographic Displays for Dynamic Content</span>, <span class="authors">Dorian Chan, Oliver Cossairt, Nathan Matsuda, Grace Kuo</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP7</td>
+                <td><span class="paper-title">HoloZip: Ultra-High Hologram Compression via Latent-of-Latent Coding</span>, <span class="authors">Huaizhi Qu, Yujie Wang, Ruichen Zhang, Hengyu Lian, Mufan Qiu, Samarjit Chakraborty, Henry Fuchs, Tianlong Chen, Praneeth Chakravarthula</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>MP8</td>
+                <td><span class="paper-title">Structured Light with a Million Light Planes per Second</span>, <span class="authors">Dhawal Sirikonda, Praneeth Chakravarthula, Ioannis Gkioulekas, Adithya Pediredla</span></td>
+            </tr>
+            <tr class="white">
+                <td>16:30-17:00</td>
+                <td></td>
+                <td>Coffee Break</td>
+            </tr>
+            <tr class="green">
+                <td>17:00-18:00</td>
+                <td></td>
+                <td><strong>Afternoon Invited Talks</strong></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>MI4</td>
+                <td>PlatonicVR: Exploiting Human Visual Properties for Ultra-Wide Field of View Displays, <span class="authors">Aswin Sankaranarayanan</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>MI5</td>
+                <td>Holographic Near-Eye Displays, <span class="authors">Gordon Wetzstein</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>MI6</td>
+                <td>Vision for Solar Energy, <span class="authors">Shree Nayar</span></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="day-header" id="tuesday">Tuesday, July 22nd, 2025</td>
+            </tr>
+            <tr class="orange">
+                <td>8:30-9:10</td>
+                <td></td>
+                <td>Keynote: Picosecond Photography: From LiDAR to Quantum Imaging, <span class="authors">Edoardo Charbon</span></td>
+            </tr>
+            <tr class="green">
+                <td>9:10-9:30</td>
+                <td>TI1</td>
+                <td>Quanta Computational Imaging, <span class="authors">Mohit Gupta</span></td>
+            </tr>
+            <tr class="white">
+                <td>9:30-9:45</td>
+                <td></td>
+                <td>Short Break</td>
+            </tr>
+            <tr class="green">
+                <td>9:45-10:45</td>
+                <td></td>
+                <td><strong>Morning Invited Talks</strong></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>TI2</td>
+                <td>Cameras as Nanophotonic Optical Computers, <span class="authors">Felix Heide</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>TI3</td>
+                <td>Volume Representations for Inverse Problems, <span class="authors">Sara Fridovich-Keil</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>TI4</td>
+                <td>On Attention Layers for Image Generation and Manipulation, <span class="authors">Or Patashnik</span></td>
+            </tr>
+            <tr class="white">
+                <td>10:45-11:15</td>
+                <td></td>
+                <td>Coffee Break</td>
+            </tr>
+            <tr class="blue">
+                <td>11:15-12:15</td>
+                <td></td>
+                <td><strong>Morning Papers Session: Single-Photon Imaging</strong></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP1</td>
+                <td><span class="paper-title">PhotonSplat: 3D Scene Reconstruction and Colorization from SPAD Sensors</span>, <span class="authors">Sai Sri Teja Kuppa, Sreevidya Chintalapati, Vinayak Gupta, Mukund Varma T, Haejoon Lee, Aswin C. Sankaranarayanan, Kaushik Mitra</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP2</td>
+                <td><span class="paper-title">Predicting Important Photons for Energy-Efficient Single-Photon Videography</span>*, <span class="authors">Shantanu Gupta, Varun Sundar, Lucas J. Koerner, Claudio Bruschini, Edoardo Charbon, Mohit Gupta</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP3</td>
+                <td><span class="paper-title">Depth Dynamics via One-Bit Frequency Probing in Embedded Direct Time-of-Flight Sensing</span>*, <span class="authors">Seth Lindgren, Benjamin Johnson, Lucas J. Koerner</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP4</td>
+                <td><span class="paper-title">Hardware-Aware Coding Function Design for Compressive Single-Photon 3D Cameras</span>*, <span class="authors">David Parra, Felipe Gutierrez-Barragan, Trevor Seets, Andreas Velten</span></td>
+            </tr>
+            <tr class="purple">
+                <td>12:15-12:30</td>
+                <td></td>
+                <td>Tuesday Poster Spotlights</td>
+            </tr>
+            <tr class="white">
+                <td>12:30-14:00</td>
+                <td></td>
+                <td>Lunch</td>
+            </tr>
+            <tr class="yellow">
+                <td>14:00-15:30</td>
+                <td></td>
+                <td>Tuesday Posters, Demos & Coffee</td>
+            </tr>
+            <tr class="blue">
+                <td>15:30-16:30</td>
+                <td></td>
+                <td><strong>Afternoon Papers Session: Heat & Event Based Imaging</strong></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP5</td>
+                <td><span class="paper-title">Event2Audio: Event-Based Optical Vibration Sensing</span>, <span class="authors">Mingxuan Cai, Dekel Galor, Amit Pal Singh Kohli, Jacob L. Yates, Laura Waller</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP6</td>
+                <td><span class="paper-title">Centroiding Point-Objects with Event Cameras</span>, <span class="authors">Connor Hashemi, Dennis Melamed, Albert W. Reed, Nitesh Menon, Keigo Hirakawa, Scott McCloskey</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP7</td>
+                <td><span class="paper-title">Shape from Polarization of Thermal Emission and Reflection</span>, <span class="authors">Kazuma Kitazawa, Tsuyoshi Takatani</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>TP8</td>
+                <td><span class="paper-title">Resolving Shape Ambiguities Using Heat Conduction and Shading</span>, <span class="authors">Akihiko Oharazawa, Sriram Narayanan, Mani Ramanagopal, Srinivasa Narasimhan</span></td>
+            </tr>
+            <tr class="white">
+                <td>16:30-17:00</td>
+                <td></td>
+                <td>Coffee Break</td>
+            </tr>
+            <tr class="green">
+                <td>17:00-18:00</td>
+                <td></td>
+                <td><strong>Afternoon Invited Talks</strong></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>TI5</td>
+                <td>High-Throughput Computational Imaging with Multi-Camera Array Microscopes, <span class="authors">Roarke Horstmeyer</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>TI6</td>
+                <td>Spatially-Selective Lensing, <span class="authors">Matthew O'Toole</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>TI7</td>
+                <td>Optics, Sensors and AI: Synergic Computational Imaging to Go Beyond the Limits Imposed by Conventional Imaging, <span class="authors">Ashok Veeraraghavan</span></td>
+            </tr>
+
+            <tr>
+                <td colspan="3" class="day-header" id="wednesday">Wednesday, July 23rd, 2025</td>
+            </tr>
+            <tr class="orange">
+                <td>8:30-9:10</td>
+                <td></td>
+                <td>Keynote: TBD, <span class="authors">Raquel Urtasun</span></td>
+            </tr>
+            <tr class="green">
+                <td>9:10-9:30</td>
+                <td>WI1</td>
+                <td>Driving in Bad Weather and Through Workzones, <span class="authors">Srinivasa Narasimhan</span></td>
+            </tr>
+            <tr class="white">
+                <td>9:30-9:45</td>
+                <td></td>
+                <td>Short Break</td>
+            </tr>
+            <tr class="green">
+                <td>9:45-10:45</td>
+                <td></td>
+                <td><strong>Morning Invited Talks</strong></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>WI2</td>
+                <td>Neural Cellular Automata: A New Paradigm for Self-Organizing Textures, <span class="authors">Sabine Susstrunk</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>WI3</td>
+                <td>Exploring the Nonconvex Landscape of Biological Inverse-Scattering, <span class="authors">Shwetadwip Chowdhury</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>WI4</td>
+                <td>Revisit Mirrors for 3D Imaging, <span class="authors">Jinwei Ye</span></td>
+            </tr>
+            <tr class="white">
+                <td>10:45-11:15</td>
+                <td></td>
+                <td>Coffee Break</td>
+            </tr>
+            <tr class="blue">
+                <td>11:15-12:30</td>
+                <td></td>
+                <td><strong>Morning Papers Session: Generative Models</strong></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>WP1</td>
+                <td><span class="paper-title">DiffBody: Human Body Image Restoration with Generative Diffusion Prior</span>, <span class="authors">Yiming Zhang, Lionel Z. WANG, Sizhuo Ma, Xinjie Li, Jian Ren, Zhihang Zhong, Jian Wang</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>WP2</td>
+                <td><span class="paper-title">Single-Step Latent Diffusion for Underwater Image Restoration</span>*, <span class="authors">Jiayi Wu, Tianfu Wang, Md Abu Bakr Siddique, Md Jahidul Islam, Cornelia Fermuller, Yiannis Aloimonos, Christopher Metzler</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>WP3</td>
+                <td><span class="paper-title">Dark Noise Diffusion: Noise Synthesis for Low-Light Image Denoising</span>*, <span class="authors">Liying Lu, Raphael Achddou, Sabine Süsstrunk</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>WP4</td>
+                <td><span class="paper-title">Exposure-Limited Image Enhancement with Generative Diffusion Prior</span>, <span class="authors">Baiang Li, Sizhuo Ma, Yanhong Zeng, Xiaogang Xu, Youqing Fang, Zhao Zhang, Jian Wang, Kai Chen</span></td>
+            </tr>
+            <tr class="blue">
+                <td></td>
+                <td>WP5</td>
+                <td><span class="paper-title">Learning to Expose: A Deep Reinforcement Learning Approach to Camera Exposure Control</span>, <span class="authors">Xingang Guo, Jinglun Gao, Wenbin Wang, Xiaoxing Li, Shan Tong</span></td>
+            </tr>
+            <tr class="white">
+                <td>12:30-14:00</td>
+                <td></td>
+                <td>Lunch</td>
+            </tr>
+            <tr class="green">
+                <td>14:00-14:20</td>
+                <td>WI5</td>
+                <td>Space-Time Methods for Super-Resolution Microscopy of Dynamic Samples, <span class="authors">Laura Waller</span></td>
+            </tr>
+            <tr class="blue">
+                <td>14:20-14:35</td>
+                <td>WP6</td>
+                <td><span class="paper-title">Centroiding Point-Objects with Event Cameras</span>, <span class="authors">Connor Hashemi, Dennis Melamed, Albert W. Reed, Nitesh Menon, Keigo Hirakawa, Scott McCloskey</span></td>
+            </tr>
+            <tr class="blue">
+                <td>14:35-14:50</td>
+                <td>WP7</td>
+                <td><span class="paper-title">Shape from Polarization of Thermal Emission and Reflection</span>, <span class="authors">Kazuma Kitazawa, Tsuyoshi Takatani</span></td>
+            </tr>
+            <tr class="blue">
+                <td>14:50-15:05</td>
+                <td>WP8</td>
+                <td><span class="paper-title">Resolving Shape Ambiguities Using Heat Conduction and Shading</span>, <span class="authors">Akihiko Oharazawa, Sriram Narayanan, Mani Ramanagopal, Srinivasa Narasimhan</span></td>
+            </tr>
+            <tr class="green">
+                <td>15:05</td>
+                <td>WI6</td>
+                <td>Learned and Domain Specific Imaging Systems, <span class="authors">Wolfgang Heidrich</span></td>
+            </tr>
+            <tr class="white">
+                <td>15:25-16:00</td>
+                <td></td>
+                <td>Coffee Break</td>
+            </tr>
+            <tr class="green">
+                <td>16:00-17:20</td>
+                <td></td>
+                <td><strong>Afternoon Invited Talks</strong></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>WI7</td>
+                <td>Quantitative Secondary Electron Yield Mapping in Ion-Beam Microscopy, <span class="authors">Vivek Goyal</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>WI8</td>
+                <td>A Ray Tracer for Physics, <span class="authors">Ioannis Gkioulekas</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>WI9</td>
+                <td>The Sensor Independence Assumption, <span class="authors">Bill Freeman</span></td>
+            </tr>
+            <tr class="green">
+                <td></td>
+                <td>WI10</td>
+                <td>Capturing Touch and Surface Geometry with Vision Based Tactile Sensors, <span class="authors">Edward Adelson</span></td>
+            </tr>
+            <tr class="red">
+                <td>17:20-17:40</td>
+                <td></td>
+                <td>Closing Remarks</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
