@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 720 1324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;">
+    <g>
+        <a xlink:href="#monday-opening">
+            <rect x="48.99" y="45.04" width="220.07" height="44.23" style="fill:rgb(248,187,208);fill-rule:nonzero;cursor:pointer;"/>
+        </a>
+    </g>
+    <g>
+        <a xlink:href="#monday-keynote">
+            <rect x="48.99" y="89.27" width="220.07" height="88.45" style="fill:rgb(255,224,178);fill-rule:nonzero;cursor:pointer;"/>
+        </a>
+    </g>
+    <g>
+        <rect x="48.99" y="177.72" width="220.07" height="33.17" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <a xlink:href="#monday-morning-invited">
+            <rect x="48.99" y="210.89" width="220.07" height="132.68" style="fill:rgb(220,237,200);fill-rule:nonzero;cursor:pointer;"/>
+        </a>
+    </g>
+    <g>
+        <rect x="48.99" y="343.57" width="220.07" height="66.34" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="48.99" y="409.91" width="220.07" height="132.68" style="fill:rgb(227,242,253);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="48.99" y="542.59" width="220.07" height="33.17" style="fill:rgb(197,202,233);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="48.99" y="575.76" width="220.07" height="199.02" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="48.99" y="774.77" width="220.07" height="199.02" style="fill:rgb(255,249,196);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="48.99" y="973.79" width="220.07" height="132.68" style="fill:rgb(227,242,253);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="48.99" y="1106.47" width="220.07" height="66.34" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="48.99" y="1172.81" width="220.07" height="132.68" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="45.04" width="220.07" height="88.45" style="fill:rgb(255,224,178);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="133.49" width="220.07" height="44.23" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="177.72" width="220.07" height="33.17" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="210.89" width="220.07" height="132.68" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="343.57" width="220.07" height="66.34" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="409.91" width="220.07" height="132.68" style="fill:rgb(227,242,253);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="542.59" width="220.07" height="33.17" style="fill:rgb(197,202,233);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="575.76" width="220.07" height="199.02" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="774.77" width="220.07" height="199.02" style="fill:rgb(255,249,196);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="973.79" width="220.07" height="132.68" style="fill:rgb(227,242,253);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="1106.47" width="220.07" height="66.34" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="269.06" y="1172.81" width="220.07" height="132.68" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="45.04" width="220.07" height="88.45" style="fill:rgb(255,224,178);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="133.49" width="220.07" height="44.23" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="177.72" width="220.07" height="33.17" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="210.89" width="220.07" height="132.68" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="343.57" width="220.07" height="66.34" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="409.91" width="220.07" height="165.85" style="fill:rgb(227,242,253);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="575.76" width="220.07" height="199.02" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="774.77" width="220.07" height="44.23" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="819" width="220.07" height="95.09" style="fill:rgb(227,242,253);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="914.09" width="220.07" height="44.23" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="958.31" width="220.07" height="77.4" style="fill:white;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="1035.71" width="220.07" height="176.91" style="fill:rgb(220,237,200);fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <rect x="489.13" y="1212.61" width="220.07" height="44.23" style="fill:rgb(248,187,208);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,18.93,49.6)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">8:30</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,18.93,115.94)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">9:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,248.62)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">10:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,381.3)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">1<tspan x="5.783px 12.457px " y="0px 0px ">1:</tspan>00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,513.98)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">12:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,646.65)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">13:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,779.33)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">14:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,912.01)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">15:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,1044.69)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">16:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,1177.37)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">17:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,11.35,1310.05)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;fill:rgb(26,26,26);">18:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <path d="M48.99,49.6L48.99,1310.05" style="fill:none;fill-rule:nonzero;stroke:rgb(26,26,26);stroke-width:1px;"/>
+    <path d="M48.99,1305.49L488.85,1305.49" style="fill:none;fill-rule:nonzero;stroke:rgb(26,26,26);stroke-width:1px;"/>
+    <g transform="matrix(1,0,0,1,119.42,200.44)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Short Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,117.76,563.31)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Spotlights M</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,338.36,563.31)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Spotlights <tspan x="69.771px " y="0px ">T</tspan></text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,546.23,801.19)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>k WI5</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,129.78,22.57)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16px;">Monday</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,348.14,22.57)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16px;">T<tspan x="8.586px 18.359px " y="0px 0px ">ue</tspan>sday</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,555.69,22.57)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16px;">W<tspan x="14.813px 23.711px " y="0px 0px ">ed</tspan>nesday</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,122.78,127.64)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Keynote M</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,125.45,149.24)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">8:50–9:30</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,343.67,84.5)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Keynote <tspan x="58.938px " y="0px ">T</tspan></text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,348.6,106.1)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">8:30–9:10</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,339.05,200.44)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Short Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,560.28,200.44)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Short Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,115.25,381.44)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Cof<tspan x="23.071px 27.239px " y="0px 0px ">fe</tspan>e Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,336.49,381.8)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Cof<tspan x="23.071px 27.239px " y="0px 0px ">fe</tspan>e Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,554.87,381.98)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Cof<tspan x="23.071px 27.239px " y="0px 0px ">fe</tspan>e Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,88.33,269.83)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>ks MI1-MI3</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,122.66,291.42)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">9:45–10:45</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,99.49,469.41)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Papers MP1-MP4</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,117.66,491.34)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">1<tspan x="7.229px 15.571px " y="0px 0px ">1:</tspan>15–12:15</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,323.24,469.59)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Papers <tspan x="51.423px 60.586px " y="0px 0px ">TP</tspan>1-TP4</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,339.23,491.51)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">1<tspan x="7.229px 15.571px " y="0px 0px ">1:</tspan>15–12:15</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,538.47,484.34)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Papers WP1-WP5</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,559.08,506.26)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">1<tspan x="7.229px 15.571px " y="0px 0px ">1:</tspan>15–12:30</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,138.59,668.44)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Lunch</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,118.5,690.36)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">12:30–14:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,358.87,668.62)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Lunch</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,338.52,690.54)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">12:30–14:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,579.81,668.62)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Lunch</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,557.47,690.54)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">12:30–14:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,125.27,871.59)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Posters M</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,117.8,893.51)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">14:00–15:30</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,347.17,871.76)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Posters <tspan x="54.749px " y="0px ">T</tspan></text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,337.14,893.69)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">14:00–15:30</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,100.55,1036.29)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Papers MP5-MP8</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,118.79,1058.22)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">15:30–16:30</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,324.19,1036.47)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Papers <tspan x="51.423px 60.586px " y="0px 0px ">TP</tspan>5-TP8</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,337.18,1058.39)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">15:30–16:30</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,328.77,160.19)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>k <tspan x="78.662px 87.825px " y="0px 0px ">TI</tspan>1</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,563.37,84.52)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Keynote W</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,566.79,106.12)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">8:30–9:10</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,537.73,863.59)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Papers WP6-WP8</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,558.24,884.4)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">14:20–15:25</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,546.57,941.06)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>k WI6</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,522.19,1122.07)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>ks WI7-WI10</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,557.61,1144.01)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">16:00–17:20</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,115.25,1144.37)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Cof<tspan x="23.071px 27.239px " y="0px 0px ">fe</tspan>e Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,335.49,1144.01)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Cof<tspan x="23.071px 27.239px " y="0px 0px ">fe</tspan>e Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,555.64,1003.77)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Cof<tspan x="23.071px 27.239px " y="0px 0px ">fe</tspan>e Break</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,574.11,1230.6)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Closing</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,557.78,1250.96)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">17:20–17:40</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,95.65,60.5)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Opening &amp; <tspan x="74.224px 83.958px 94.79px " y="0px 0px 0px ">Awa</tspan>rds</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,125.66,80.86)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">8:30–8:50</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,546.43,160.35)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>k WI1</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,312.09,269.84)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>ks <tspan x="86.162px 95.325px " y="0px 0px ">TI</tspan>2-TI4</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,342.13,291.44)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">9:45–10:45</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,527.17,269.84)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>ks WI2-WI4</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,561.06,291.44)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">9:45–10:45</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,311.69,1238.68)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>ks <tspan x="86.162px 95.325px " y="0px 0px ">TI</tspan>5-TI7</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,338.73,1260.28)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">17:00-18:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,87.45,1238.68)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Invited <tspan x="48.091px 55.591px 63.933px " y="0px 0px 0px ">Tal</tspan>ks MI4-MI6</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,117.66,1260.28)">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">17:00–18:00</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
