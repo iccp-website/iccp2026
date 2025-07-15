@@ -375,8 +375,8 @@
     </g>
     <g id="Artboard1" transform="matrix(1,0,0,1.48419,0,0)">
         <rect x="0" y="0" width="735" height="958.31" style="fill:none;"/>
-        <g transform="matrix(1,0,0,0.358924,0,473.473)">
-            <rect x="48.99" y="1172.81" width="220.07" height="132.68" style="fill:rgb(248,187,208);stroke:black;stroke-width:1.25px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2;"/>
+        <g transform="matrix(1,0,0,0.374159,0,455.606)">
+            <rect x="48.99" y="1172.81" width="220.07" height="132.68" style="fill:rgb(248,187,208);stroke:black;stroke-width:1.24px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2;"/>
         </g>
         <g transform="matrix(1,0,0,0.455409,0,360.315)">
             <rect x="269.06" y="1172.81" width="220.07" height="132.68" style="fill:rgb(248,187,208);stroke:black;stroke-width:1.17px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2;"/>
@@ -1529,16 +1529,19 @@
         <g transform="matrix(1,0,0,0.67377,219.79,0)">
             <rect x="48.99" y="45.04" width="220.07" height="1260.45" style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
         </g>
-        <g transform="matrix(1,0,0,0.67377,61.99,915.455)">
+        <g transform="matrix(1,0,0,0.67377,85.2435,910.739)">
             <g>
                 <g>
                     <g>
                         <g>
                             <g>
                                 <g>
-                                    <g transform="matrix(15,0,0,15,194.29,0)">
+                                    <g>
+                                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Reception &amp; Lab <tspan x="114.807px 122.307px 130.649px " y="0px 0px 0px ">Tou</tspan>r:</text>
+                                        <g transform="matrix(15,0,0,15,120.359,15)">
+                                        </g>
+                                        <text x="27.795px" y="15px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Bahen Centre</text>
                                     </g>
-                                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:15px;fill:rgb(51,51,51);">Reception: Bahen <tspan x="122.593px 132.598px " y="0px 0px ">Au</tspan>ditorium</text>
                                 </g>
                             </g>
                         </g>
@@ -1546,7 +1549,7 @@
                 </g>
             </g>
         </g>
-        <g transform="matrix(1,0,0,0.67377,117.66,929.173)">
+        <g transform="matrix(1,0,0,0.67377,117.66,933.87)">
             <g>
                 <g>
                     <g>
@@ -1563,7 +1566,7 @@
                 </g>
             </g>
         </g>
-        <g transform="matrix(1,0,0,0.67377,309.99,915.455)">
+        <g transform="matrix(1,0,0,0.67377,312.39,920.152)">
             <g>
                 <g>
                     <g>
@@ -1580,7 +1583,7 @@
                 </g>
             </g>
         </g>
-        <g transform="matrix(1,0,0,0.67377,338.234,929.173)">
+        <g transform="matrix(1,0,0,0.67377,340.634,933.87)">
             <g>
                 <g>
                     <g>
