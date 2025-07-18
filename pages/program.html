@@ -8,14 +8,36 @@
         </div>
     </div>
 
-    <iframe id="programFrame" src="./static/materials/program-list.html?v=5" style="width: 100%; border: none;" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';"></iframe>
+    
+    <style>
+        /* Cell color classes */
+        .red-cell {
+            background-color: #ffe7eb !important;
+        }
+        .blue-cell {
+            background-color: #e7f5ff !important;
+        }
+    </style>
+    
+    <iframe id="programFrame" src="./static/materials/program-list.html?v=2" style="width: 100%; border: none;" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';"></iframe>
 
     <h3 class="title is-3" id="posters">Poster Sessions and Demos</h3>
+    
+    <div class="notification is-info is-light" style="margin-bottom: 2em;">
+        <p><strong>Poster and Demo Sessions</strong></p>
+        <ul style="margin-top: 0.5em;">
+            <li>Cells <span style="color: #cc0000; font-weight: bold;">highlighted in red</span> indicate spotlight posters. A short video for each spotlight poster can be found on<a href="https://www.youtube.com/@iccp-conference" target="_blank"> ICCP's YouTube channel  </a> .</li>
+            <li>Cells <span style="color: #007dd6; font-weight: bold;">highlighted in blue</span> indicate posters of accepted papers.</li>
+            <li>Demos are indexed by D-#.</li>
+            <li>The poster board dimension is 3' (wide) x 4' (tall), portrait orientation.</li>
+            <li>For poster printing services, we recommend <a href="https://utposter.com/" target="_blank">UTPoster.com</a>, a nearby printing store that specializes in academic poster printing.</li>
+        </ul>
+    </div>
     
     <h4 class="title is-4" style="margin-top:2em;">Monday, July 21st, 2025</h4>
     <hr>
     <div class="table-container">
-        <table class="table is-striped is-hoverable is-fullwidth">
+        <table class="table is-striped is-fullwidth">
             <thead>
                 <tr>
                     <th>Board No.</th>
@@ -24,7 +46,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                    <tr class="red-cell">
                     <td>1</td>
                     <td>Doppler Single-Photon Lidar</td>
                     <td>Ruangrawee Kitichotkul (Boston University), Joshua Rapp (Mitsubishi Electric Research Laboratories), Yanting Ma (Mitsubishi Electric Research Laboratories), Hassan Mansour (Mitsubishi Electric Research Laboratories)</td>
@@ -39,7 +61,7 @@
                     <td>Cricket: A Self-Powered Chirping Pixel</td>
                     <td>Shree K. Nayar (Columbia University), Jeremy Klotz (Columbia University), Nikhil Nanda (Columbia University), Mikhail Fridberg (ADSP Consulting)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>4</td>
                     <td>Event fields: Capturing light fields at high speed, resolution, and dynamic range</td>
                     <td>Ziyuan Qu (Dartmouth College), Zihao Zou (UNC Chapel Hill), Vivek Boominathan (Rice University), Praneeth Chakravarthula (UNC Chapel Hill), Adithya Pediredla (Dartmouth College)</td>
@@ -49,7 +71,7 @@
                     <td>Revealing the 3D Cosmic Web through Gravitationally Constrained Neural Fields</td>
                     <td>Brandon Zhao (Caltech), Aviad Levis (University of Toronto), Liam Connor (Harvard & Smithsonian Center for Astrophysics), Pratul P. Srinivasan (Google Deepmind), Katherine L. Bouman (Caltech)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>6</td>
                     <td>Rapid wavefront shaping using an optical gradient acquisition</td>
                     <td>Sagi Monin (Technion), Marina Alterman (Technion), Anat Levin (Technion)</td>
@@ -59,7 +81,7 @@
                     <td>Time of the Flight of the Gaussians: Optimizing Depth Indirectly in Dynamic Radiance Fields</td>
                     <td>Runfeng Li (Brown University), Mikhail Okunev (Brown University), Zixuan Guo (Brown University), Anh Ha Duong (Brown University), Christian Richardt (Meta Reality Labs), Matthew O'Toole (Carnegie Mellon University), James Tompkin (Brown University)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>8</td>
                     <td>PanDORA: Casual HDR Radiance Acquisition for Indoor Scenes</td>
                     <td>Mohammad Reza Karimi Dastjerdi (Universite Laval), Frédéric Fortier-Chouinard (Universite Laval), Dominique Tanguay-Gaudreau (Universite Laval), Yannick Hold-Geoffroy (Adobe), Claude MH Demers (Universite Laval), Marc Hébert (Universite Laval), Nima Kalantari (Texas A&M University), Jean-Francois Lalonde (Universite Laval)</td>
@@ -79,7 +101,7 @@
                     <td>Scintillation Event Imaging with a SPAD Camera</td>
                     <td>Alex Bocchieri (University of Wisconsin - Madison), Andreas Velten (University of Wisconsin - Madison)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>12</td>
                     <td>A Monte Carlo Rendering Framework for Simulating Optical Heterodyne Detection</td>
                     <td>Juhyeon Kim (Dartmouth College), Craig Benko (Aurora Innovation), Magnus Wrenninge (Aurora Innovation), Ryusuke Villemin (Aurora Innovation), Zeb Barber (Aurora Innovation), Wojceich Jarosz (Dartmouth College), Adithya Pediredla (Dartmouth College)</td>
@@ -89,7 +111,7 @@
                     <td>Hierarchical Material Recognition from Local Appearance</td>
                     <td>Matthew Beveridge (Columbia University), Shree K. Nayar (Columbia University)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>14</td>
                     <td>Towards Passive Non-Line-of-Sight 3D Tracking for Hidden Persons and UAVs</td>
                     <td>Elizabeth Lopez (Arizona State University), Shenbagaraj Kannapiran (University of Pennsylvania), Sreenithy Chandran (Arizona State University), Spring Berman (Arizona State University), Suren Jayasuriya (Arizona State University)</td>
@@ -104,7 +126,7 @@
                     <td>A New Active Hyperspectral Dataset for NLOS Imaging</td>
                     <td>Forrest B. Peterson (University of Wisconsin - Madison), Talah Sultan (University of Wisconsin - Madison), Khadijeh Masumnia-Bisheh (University of Wisconsin - Madison), Andreas Velten (University of Wisconsin - Madison)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>17</td>
                     <td>NeST: Neural Stress Tensor Tomography by leveraging 3D Photoelasticity</td>
                     <td>Akshat Dave (MIT), Tianyi Zhang (Rice University), Aaron Young (MIT), Ramesh Raskar (MIT), Wolfgang Heidrich (KAUST), Ashok Veeraraghavan (Rice University)</td>
@@ -124,7 +146,7 @@
                     <td>Using a Distance Sensor to Detect Deviations in a Planar Surface</td>
                     <td>Carter Sifferman (University of Wisconsin-Madison), William Sun (University of Wisconsin-Madison), Mohit Gupta (University of Wisconsin-Madison), Michael Gleicher (University of Wisconsin-Madison)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>21</td>
                     <td>Hi-SPAD: Video-Rate Hyperspectral Inference with Single Photon Sensors</td>
                     <td>Haejoon Lee (Carnegie Mellon University), Mohit Gupta (University of Wisconsin–Madison), Aswin Sankaranarayanan (Carnegie Mellon University), Vijayakumar Bhagavatula (Carnegie Mellon University)</td>
@@ -140,6 +162,46 @@
                     <td>Arjun Teh (Carnegie Mellon University), Wael Hajj-Ali (Mitsubishi Electric Research Laboratories), Joshua Rapp (Mitsubishi Electric Research Laboratories), Hassan Mansour (Mitsubishi Electric Research Laboratories)</td>
                 </tr>
                 <tr>
+                    <td>24</td>
+                    <td>Gaussian Wave Splatting for Computer Generated Holography</td>
+                    <td>Suyeon Choi (Stanford University), Brian Chao (Stanford University), Jackie Yang (Stanford University), Manu Gopakumar (Stanford University), Gordon Wetzstein (Stanford University)</td>
+                </tr>   
+                <tr class="blue-cell">
+                    <td>25</td>
+                    <td>Tomographic Sparse View Selection Using the View Covariance Loss</td>
+                    <td>Jingsong Lin, Amir Koushyar Ziabari, S. V. Venkatakrishnan, Obaidullah Rahman, Gregery T. Buzzard, Charles A. Bouman</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>26</td>
+                    <td>A Gaussian Parameterization for Direct Atomic Structure Identification in Electron Tomography</td>
+                    <td>Nalini M Singh, Tiffany Chien, Arthur R. C. McCray, Colin Ophus, Laura Waller</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>27</td>
+                    <td>Zero-Phase Phasor Fields for Non-Line-of-Sight Imaging</td>
+                    <td>Pablo Luesia-Lahoz, Talha Sultan, Forrest B. Peterson, Andreas Velten, Diego Gutierrez, Adolfo Muñoz</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>28</td>
+                    <td>Learned Off-Aperture Encoding for Wide Field-of-View RGBD Imaging</td>
+                    <td>Haoyu Wei, Xin Liu, Yuhui Liu, Qiang Fu, Wolfgang Heidrich, Edmund Y. Lam, Yifan Peng</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>29</td>
+                    <td>Structured Light with a Million Light Planes per Second</td>
+                    <td>Dhawal Sirikonda, Praneeth Chakravarthula, Ioannis Gkioulekas, Adithya Pediredla</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>30</td>
+                    <td>Depth Dynamics via One-Bit Frequency Probing in Embedded Direct Time-of-Flight Sensing</td>
+                    <td>Seth Lindgren, Benjamin Johnson, Lucas J. Koerner</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>31</td>
+                    <td>Event2Audio: Event-Based Optical Vibration Sensing</td>
+                    <td>Mingxuan Cai, Dekel Galor, Amit Pal Singh Kohli, Jacob L. Yates, Laura Waller</td>
+                </tr>
+                <tr class="red-cell">
                     <td>D-1</td>
                     <td>Compact, synchronized camera arrays for new microscopy applications and beyond</td>
                     <td>Clare Cook (Duke University), Kanghyun Kim (Duke University), Josh Lerner (Duke University), Haitao Chen (Duke University), Kevin Zhou (Univ. Michigan), Mark Harfouche (Ramona Optics Inc.), Roarke Horstmeyer (Duke University and Ramona Optics Inc.)</td>
@@ -156,7 +218,7 @@
     <h4 class="title is-4" style="margin-top:2em;">Tuesday, July 22nd, 2025</h4>
     <hr>
     <div class="table-container">
-        <table class="table is-striped is-hoverable is-fullwidth">
+        <table class="table is-striped is-fullwidth">
             <thead>
                 <tr>
                     <th>Board No.</th>
@@ -170,12 +232,12 @@
                     <td>Minimalist Vision with Freeform Pixels</td>
                     <td>Jeremy Klotz (Columbia University), Shree K. Nayar (Columbia University)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>2</td>
                     <td>Noise-Coded Illumination for Forensic and Photometric Video Analysis</td>
                     <td>Peter F. Michael (Cornell University), Zekun Hao (Cornell Tech), Serge Belongie (University of Copenhagen), Abe Davis (Cornell University)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>3</td>
                     <td>NnD: Diffusion based Generation of Physically Nonnegative Objects</td>
                     <td>Nadav Torem (Technion-Israel Institute of Technology), Tamar Sde Chen (Technion-Israel Institute of Technology), Yoav Y. Schechner (Technion-Israel Institute of Technology)</td>
@@ -195,12 +257,12 @@
                     <td>Visual Surface Wave Elastography: Revealing Subsurface Physical Properties via Visible Surface Waves</td>
                     <td>Berthy Feng (Caltech), Alex Ogren (Caltech), Jihoon Ahn (Caltech), Katie Bouman (Caltech), Chiara Daraio (Caltech)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>7</td>
                     <td>QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems</td>
                     <td>Cassandra Tong Ye (Cornell University), Shamus Li (Cornell University), Tyler King (Cornell University), Kristina Monakhova (Cornell University)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>8</td>
                     <td>Single-Shot Novel View Synthesis with a Multiplexed Light Field Camera</td>
                     <td>Shamus Li (Cornell University), Vi Tran (Robinhood Markets), Ruiming Cao (Chan Zuckerberg Imaging Institute), Laura Waller (UC Berkeley), Kristina Monakhova (Cornell University), Sara Fridovich-Keil (Georgia Tech)</td>
@@ -210,70 +272,111 @@
                     <td>Achieving aberration invariance through wavefront randomization</td>
                     <td>Amit Kohli (UC Berkeley), Anastasios Angelopoulos (UC Berkeley), Neerja Aggarwal (UC Berkeley), Laura Waller (UC Berkeley)</td>
                 </tr>
-                <tr>
+                <tr class="red-cell">
                     <td>10</td>
                     <td>Vision with Heat and Light</td>
                     <td>Mani Ramanagopal (Carnegie Mellon University), Sriram Narayanan (Carnegie Mellon University), Zeqing Yuan (Carnegie Mellon University), Akihiko Oharazawa (Carnegie Mellon University), Mark Sheinin (Carnegie Mellon University), Aswin C. Sankaranarayanan (Carnegie Mellon University), Srinivasa G. Narasimhan (Carnegie Mellon University)</td>
                 </tr>
-                <tr>
+                <tr class="blue-cell">
                     <td>11</td>
+                    <td>Resolving Shape Ambiguities Using Heat Conduction and Shading</td>
+                    <td>Akihiko Oharazawa, Sriram Narayanan, Mani Ramanagopal, Srinivasa Narasimhan</td>
+                </tr>
+
+                <tr class="red-cell">
+                    <td>12</td>
                     <td>Spatio-Temporal Neural Operators as Surrogates of Large-Scale Simulations for Black Hole Imaging</td>
                     <td>Renbo Tu (University of Toronto/Vector Institute), Ali SaraerToosi (University of Toronto/Vector Institute), Kamyar Azizzadenesheli (NVIDIA), Aviad Levis (University of Toronto/Vector Institute)</td>
                 </tr>
                 <tr>
-                    <td>12</td>
+                    <td>13</td>
                     <td>Extending the depth of field of spatial frequency domain imaging with point spread function engineering</td>
                     <td>Dylan Dao (University of Toronto), Jie Jiao (University of Toronto), Lindsay Kuramoto (University of Toronto), Ofer Levi (University of Toronto)</td>
                 </tr>
                 <tr>
-                    <td>13</td>
+                    <td>14</td>
                     <td>Reconstructing Protoplanetary Disks with Differentiable Radiative Transfer and Neural Fields</td>
                     <td>Nhan Luong (University of Toronto), Richard Teague (MIT), Kevin Flaherty (Williams College), Kathrine. L. Bouman (Caltech), Marcelo Barraza-Alfaro (MIT), Aviad Levis (University of Toronto)</td>
                 </tr>
                 <tr>
-                    <td>14</td>
+                    <td>15</td>
                     <td>Event-based Monocular Depth Estimation with Depth-dependent PSFs</td>
                     <td>Haley Lee (Cornell University), Adam Cahall (Cornell University), Kristina Monakhova (Cornell University)</td>
                 </tr>
                 <tr>
-                    <td>15</td>
+                    <td>16</td>
                     <td>In vivo 3D ultrasound computed tomography of musculoskeletal tissues with generative neural PDE solvers</td>
                     <td>Zhijun Zeng (Tsinghua University), Youjia Zheng (Peking University), Chang Su (Chinese Academy of Sciences), Qianhang Wu (Peking University), Hao Hu (Peking University), Zeyuan Dong (Chinese Academy of Sciences), Shan Gao (Peking University Third Hospital), Yang Lv (Peking University Third Hospital), Rui Tang (Peking University Third Hospital), Ligang Cui (Peking University Third Hospital), Zhiyong Hou (The Third Hospital of Hebei Medical University), Weijun Lin (Chinese Academy of Sciences), Zuoqiang Shi (Tsinghua University), Yubing Li (Peking University), He Sun (Peking University)</td>
                 </tr>
                 <tr>
-                    <td>16</td>
+                    <td>17</td>
                     <td>End-to-End LiDAR optimization for point cloud registration</td>
                     <td>Siddhant Katyan (Université Laval), Marc-Andre Gardner (Bentley Systems), Jean-Francois Lalonde (Université Laval)</td>
                 </tr>
                 <tr>
-                    <td>17</td>
+                    <td>18</td>
                     <td>Learned Optics for Snapshot Wide-FoV and Hyperspectral Imaging</td>
                     <td>Haoyu Wei (HKU), Yifan (Evan) Peng (Princeton University), Zheng Shi (Tongji University), Xiong Dun (KAUST), Xin Liu (KAUST), Yuhui Liu (KAUST), Qiang Fu (KAUST), Shiyu Dong (KAUST), Zhanshan Wang (KAUST), Xinbin Cheng (KAUST), Felix Heide (Princeton University), Wolfgang Heidrich (KAUST), Edmund Y. Lam (HKU)</td>
                 </tr>
                 <tr>
-                    <td>18</td>
+                    <td>19</td>
                     <td>Time-of-Flight Imaging with a Conventional Camera Based on Polarization-Modulated Optical Homodyne</td>
                     <td>Ayaka Ebisu (University of Tsukuba), Takahito Aoto (Optech Innovation LLC.), Tsuyoshi Takatani (University of Tsukuba)</td>
                 </tr>
                 <tr>
-                    <td>19</td>
+                    <td>20</td>
                     <td>Vision–Language Models as Differentiable Semantic and Spatial Rewards for Text-to-3D Generation</td>
                     <td>Weimin Bai (Peking University), Yubo Li (Peking University), Weijian Luo (Peking University), Wenzheng Chen (Peking University), He Sun (Peking University)</td>
                 </tr>
                 <tr>
-                    <td>20</td>
+                    <td>21</td>
                     <td>VibrantLeaves: A principled parametric image generator for training deep restoration models</td>
                     <td>Raphael Achddou (EPFL), Yann Gousseau (Telecom Paris), Said Ladjal (Telecom Paris), Sabine Süsstrunk (EPFL)</td>
                 </tr>
-                <tr>
-                    <td>21</td>
+                <tr class="red-cell">
+                    <td>22</td>
                     <td>Neural Dynamic Modes: Computational Imaging of Dynamical Systems from Sparse Observations</td>
                     <td>Ali Saraer Toosi (University of Toronto), Renbo Tu (University of Toronto), Kamyar Azizzadenesheli (NVIDIA), Aviad Levis (University of Toronto)</td>
                 </tr>
-                <tr>
-                    <td>22</td>
+                <tr class="red-cell">
+                    <td>23</td>
                     <td>Inverse Synthetic Aperture Fourier Ptychography</td>
                     <td>Matthew Chan (University of Maryland), Casey Pellizzari (US Air Force Academy), Christopher Metzler (University of Maryland)</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>24</td>
+                    <td>Holospeed: High-Speed Holographic Displays for Dynamic Content</td>
+                    <td>Dorian Chan, Oliver Cossairt, Nathan Matsuda, Grace Kuo</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>25</td>
+                    <td>Predicting Important Photons for Energy-Efficient Single-Photon Videography</td>
+                    <td>Shantanu Gupta, Varun Sundar, Lucas J. Koerner, Claudio Bruschini, Edoardo Charbon, Mohit Gupta</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>26</td>
+                    <td>Centroiding Point-Objects with Event Cameras</td>
+                    <td>Connor Hashemi, Dennis Melamed, Albert W. Reed, Nitesh Menon, Keigo Hirakawa, Scott McCloskey</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>27</td>
+                    <td></td>Shape from Polarization of Thermal Emission and Reflection</td>
+                    <td>Kazuma Kitazawa, Tsuyoshi Takatani</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>28</td>
+                    <td></td>Single-Step Latent Diffusion for Underwater Image Restoration</td>
+                    <td>Jiayi Wu, Tianfu Wang, Md Abu Bakr Siddique, Md Jahidul Islam, Cornelia Fermuller, Yiannis Aloimonos, Christopher Metzler</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>29</td>
+                    <td>Dark Noise Diffusion: Noise Synthesis for Low-Light Image Denoising</td>
+                    <td>Liying Lu, Raphael Achddou, Sabine Süsstrunk</td>
+                </tr>
+                <tr class="blue-cell">
+                    <td>30</td>
+                    <td>Super-Resolution with Structured Motion</td>
+                    <td>Gabby Litterio, Juan-David Lizarazo-Ferro, Pedro Felzenszwalb, Rashid Zia</td>
                 </tr>
                 <tr>
                     <td>D-1</td>
@@ -282,11 +385,6 @@
                 </tr>
                 <tr>
                     <td>D-2</td>
-                    <td>Intrinsic Image Decomposition using Light and Heat</td>
-                    <td>Zeqing Yuan (Carnegie Mellon University), Mani Ramanagopal (Carnegie Mellon University), Aswin Sankaranarayanan (Carnegie Mellon University), Srinivasa Narasimhan (Carnegie Mellon University)</td>
-                </tr>
-                <tr>
-                    <td>D-3</td>
                     <td>Spatially-varying Autofocus</td>
                     <td>Yingsi Qin (Carnegie Mellon University), Aswin Sankaranarayanan (Carnegie Mellon University), Matthew O'Toole (Carnegie Mellon University)</td>
                 </tr>
