@@ -1,395 +1,601 @@
 <section class="section container is-max-desktop content" id="overview">
     <h2 class="title">Conference Program</h2>
-    <h3 class="title is-4">Program Overview</h3>
-    <ul>
-        <li><a href="https://drive.google.com/file/d/1J9jvoWv4NQyFBqPq7nyUoMTshmPUC-jH/view?usp=sharing" target="_blank"> Download ICCP 2025 program booklet (PDF)</a></li>
-    </ul>
-    <div class="columns is-centered" style="margin-bottom:2em;">
-        <div class="column is-9" style="display:flex; justify-content:center;">
-          <img src="./static/materials/program_overview_final.svg" alt="Program Overview" style="width:100%; height:auto; box-shadow:0 2px 12px rgba(0,0,0,0.08); border-radius:12px; background:#fff; padding:8px;" />
-        </div>
-    </div>
 
-    
+<!-- ICCP 2026 Program (at-a-glance) — paste this whole block into your site -->
+<div class="iccp-program">
+<style>
+.iccp-program {
+  --iccp-keynote: #FFE0B2;
+  --iccp-invited: #DCEDC8;
+  --iccp-paper:   #E4F3FE;
+  --iccp-poster:  #F9BBD0;
+  --iccp-break:   #EEEEEC;
+  --iccp-ink: #1f2421;
+  --iccp-mut: #6a716c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--iccp-ink);
+}
+.iccp-wrap { display: grid; grid-template-columns: 54px repeat(3, 1fr); gap: 0 14px; align-items: start; }
+.iccp-gutter { position: relative; }
+.iccp-hour { position: absolute; right: 4px; transform: translateY(-50%); font-size: 0.92rem; color: var(--iccp-mut); font-variant-numeric: tabular-nums; }
+.iccp-dayname { font-size: 1.1rem; font-weight: 700; margin: 0 0 8px; text-align: center; }
+.iccp-gutterhead { height: calc(1.1rem * 1.5 + 8px); }
+.iccp-canvas { position: relative; }
+.iccp-gridline { position: absolute; left: 0; right: 0; border-top: 1px dashed #d8d8d4; }
+.iccp-evt { position: absolute; left: 0; right: 0; border-radius: 6px; padding: 6px 10px; overflow: hidden; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.06); }
+.iccp-evttime { font-size: 0.76rem; font-weight: 600; color: var(--iccp-mut); font-variant-numeric: tabular-nums; line-height: 1.2; }
+.iccp-evttitle { font-size: 0.92rem; font-weight: 600; line-height: 1.2; }
+.iccp-compact { flex-direction: row; align-items: center; gap: 6px; padding: 0 10px; }
+.iccp-compact .iccp-evttitle { font-size: 0.82rem; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.iccp-keynote { background: var(--iccp-keynote); }
+.iccp-invited { background: var(--iccp-invited); }
+.iccp-paper   { background: var(--iccp-paper); }
+.iccp-poster  { background: var(--iccp-poster); }
+.iccp-break   { background: var(--iccp-break); }
+.iccp-legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 0 0 16px; font-size: 0.92rem; }
+.iccp-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.iccp-swatch { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
+.iccp-scroll { overflow-x: auto; }
+@media (max-width: 760px) { .iccp-wrap { min-width: 680px; } }
+</style>
+<div class="iccp-legend">
+  <span><i class="iccp-swatch" style="background:var(--iccp-keynote)"></i>Keynote</span>
+  <span><i class="iccp-swatch" style="background:var(--iccp-invited)"></i>Invited-talk session</span>
+  <span><i class="iccp-swatch" style="background:var(--iccp-paper)"></i>Paper session</span>
+  <span><i class="iccp-swatch" style="background:var(--iccp-poster)"></i>Posters &amp; demos</span>
+  <span><i class="iccp-swatch" style="background:var(--iccp-break)"></i>Break / lunch</span>
+</div>
+<div class="iccp-scroll"><div class="iccp-wrap">
+<div class="iccp-gutter"><div class="iccp-gutterhead"></div><div class="iccp-canvas" style="height:893px"><div class="iccp-hour" style="top:46px">9:00</div><div class="iccp-hour" style="top:139px">10:00</div><div class="iccp-hour" style="top:231px">11:00</div><div class="iccp-hour" style="top:323px">12:00</div><div class="iccp-hour" style="top:416px">13:00</div><div class="iccp-hour" style="top:508px">14:00</div><div class="iccp-hour" style="top:601px">15:00</div><div class="iccp-hour" style="top:693px">16:00</div><div class="iccp-hour" style="top:785px">17:00</div><div class="iccp-hour" style="top:878px">18:00</div></div></div>
+<div class="iccp-daycol"><h3 class="iccp-dayname">Monday, July 13th</h3><div class="iccp-canvas" style="height:893px"><div class="iccp-gridline" style="top:46px"></div><div class="iccp-gridline" style="top:139px"></div><div class="iccp-gridline" style="top:231px"></div><div class="iccp-gridline" style="top:323px"></div><div class="iccp-gridline" style="top:416px"></div><div class="iccp-gridline" style="top:508px"></div><div class="iccp-gridline" style="top:601px"></div><div class="iccp-gridline" style="top:693px"></div><div class="iccp-gridline" style="top:785px"></div><div class="iccp-gridline" style="top:878px"></div><div class="iccp-evt iccp-keynote" style="top:0px;height:85px"><span class="iccp-evttime">8:30-9:25</span><span class="iccp-evttitle">Opening Session &amp; Keynote</span></div><div class="iccp-evt iccp-invited" style="top:85px;height:92px"><span class="iccp-evttime">9:25-10:25</span><span class="iccp-evttitle">Ptychography &amp; Trust</span></div><div class="iccp-evt iccp-break" style="top:178px;height:46px"><span class="iccp-evttime">10:25-10:55</span><span class="iccp-evttitle">Coffee Break</span></div><div class="iccp-evt iccp-paper" style="top:224px;height:132px"><span class="iccp-evttime">10:55-12:20</span><span class="iccp-evttitle">Generative Models for Inverse Imaging</span></div><div class="iccp-evt iccp-break" style="top:354px;height:108px"><span class="iccp-evttime">12:20-13:30</span><span class="iccp-evttitle">Lunch</span></div><div class="iccp-evt iccp-keynote" style="top:462px;height:70px"><span class="iccp-evttime">13:30-14:15</span><span class="iccp-evttitle">Keynote</span></div><div class="iccp-evt iccp-invited" style="top:532px;height:85px"><span class="iccp-evttime">14:15-15:10</span><span class="iccp-evttitle">AI in Computational Imaging</span></div><div class="iccp-evt iccp-poster iccp-compact" style="top:616px;height:31px"><span class="iccp-evttime">15:10-15:30</span><span class="iccp-evttitle">Monday Poster Spotlights</span></div><div class="iccp-evt iccp-poster" style="top:647px;height:92px"><span class="iccp-evttime">15:30-16:30</span><span class="iccp-evttitle">Monday Posters, Demos &amp; Coffee</span></div><div class="iccp-evt iccp-invited" style="top:739px;height:139px"><span class="iccp-evttime">16:30-18:00</span><span class="iccp-evttitle">Imaging Beyond Visible Light</span></div></div></div>
+<div class="iccp-daycol"><h3 class="iccp-dayname">Tuesday, July 14th</h3><div class="iccp-canvas" style="height:893px"><div class="iccp-gridline" style="top:46px"></div><div class="iccp-gridline" style="top:139px"></div><div class="iccp-gridline" style="top:231px"></div><div class="iccp-gridline" style="top:323px"></div><div class="iccp-gridline" style="top:416px"></div><div class="iccp-gridline" style="top:508px"></div><div class="iccp-gridline" style="top:601px"></div><div class="iccp-gridline" style="top:693px"></div><div class="iccp-gridline" style="top:785px"></div><div class="iccp-gridline" style="top:878px"></div><div class="iccp-evt iccp-paper" style="top:0px;height:123px"><span class="iccp-evttime">08:30-09:50</span><span class="iccp-evttitle">Wavefronts and Aberrations</span></div><div class="iccp-evt iccp-break iccp-compact" style="top:123px;height:31px"><span class="iccp-evttime">09:50-10:10</span><span class="iccp-evttitle">Coffee Break</span></div><div class="iccp-evt iccp-keynote" style="top:154px;height:70px"><span class="iccp-evttime">10:10-10:55</span><span class="iccp-evttitle">Keynote</span></div><div class="iccp-evt iccp-paper" style="top:224px;height:132px"><span class="iccp-evttime">10:55-12:20</span><span class="iccp-evttitle">Coherent Optics and Holography</span></div><div class="iccp-evt iccp-break" style="top:354px;height:108px"><span class="iccp-evttime">12:20-13:30</span><span class="iccp-evttitle">Lunch</span></div><div class="iccp-evt iccp-invited" style="top:462px;height:154px"><span class="iccp-evttime">13:30-15:10</span><span class="iccp-evttitle">Unique Imagers</span></div><div class="iccp-evt iccp-poster iccp-compact" style="top:616px;height:31px"><span class="iccp-evttime">15:10-15:30</span><span class="iccp-evttitle">Tuesday Poster Spotlights</span></div><div class="iccp-evt iccp-poster" style="top:647px;height:92px"><span class="iccp-evttime">15:30-16:30</span><span class="iccp-evttitle">Tuesday Posters, Demos &amp; Coffee</span></div><div class="iccp-evt iccp-paper" style="top:739px;height:147px"><span class="iccp-evttime">16:30-18:05</span><span class="iccp-evttitle">Lensless imaging &amp; Restoration</span></div></div></div>
+<div class="iccp-daycol"><h3 class="iccp-dayname">Wednesday, July 15th</h3><div class="iccp-canvas" style="height:893px"><div class="iccp-gridline" style="top:46px"></div><div class="iccp-gridline" style="top:139px"></div><div class="iccp-gridline" style="top:231px"></div><div class="iccp-gridline" style="top:323px"></div><div class="iccp-gridline" style="top:416px"></div><div class="iccp-gridline" style="top:508px"></div><div class="iccp-gridline" style="top:601px"></div><div class="iccp-gridline" style="top:693px"></div><div class="iccp-gridline" style="top:785px"></div><div class="iccp-gridline" style="top:878px"></div><div class="iccp-evt iccp-paper" style="top:0px;height:154px"><span class="iccp-evttime">8:30-10:10</span><span class="iccp-evttitle">NLOS Imaging &amp; Hidden Scene Recovery</span></div><div class="iccp-evt iccp-break iccp-compact" style="top:154px;height:31px"><span class="iccp-evttime">10:10-10:30</span><span class="iccp-evttitle">Coffee Break</span></div><div class="iccp-evt iccp-keynote" style="top:185px;height:70px"><span class="iccp-evttime">10:30-11:15</span><span class="iccp-evttitle">Keynote</span></div><div class="iccp-evt iccp-paper" style="top:255px;height:101px"><span class="iccp-evttime">11:15-12:20</span><span class="iccp-evttitle">Physics for Imaging</span></div><div class="iccp-evt iccp-break" style="top:354px;height:92px"><span class="iccp-evttime">12:20-13:20</span><span class="iccp-evttitle">Lunch</span></div><div class="iccp-evt iccp-paper" style="top:447px;height:101px"><span class="iccp-evttime">13:20-14:25</span><span class="iccp-evttitle">Scene Representation and Editing</span></div><div class="iccp-evt iccp-break iccp-compact" style="top:547px;height:22px"><span class="iccp-evttime">14:25-14:40</span><span class="iccp-evttitle">Coffee Break</span></div><div class="iccp-evt iccp-paper" style="top:570px;height:101px"><span class="iccp-evttime">14:40-15:45</span><span class="iccp-evttitle">Imaging for Depth and Dynamics</span></div><div class="iccp-evt iccp-break iccp-compact" style="top:671px;height:22px"><span class="iccp-evttime">15:45-16:00</span><span class="iccp-evttitle">Closing Remarks</span></div></div></div>
+</div>
+</div>
+<div style="margin-bottom: 2rem;"></div>
+</div>
+
     <style>
-        /* Cell color classes */
-        .red-cell {
-            background-color: #ffe7eb !important;
+        .program-day {
+            margin-top: 2rem;
         }
-        .blue-cell {
-            background-color: #e7f5ff !important;
+
+        .program-table td,
+        .program-table th {
+            vertical-align: middle;
+        }
+
+        .program-time {
+            white-space: nowrap;
+            width: 18%;
+        }
+
+        .program-code {
+            white-space: nowrap;
+            width: 12%;
+            font-weight: 600;
+        }
+
+        .program-session {
+            background-color: #e9ecef;
+            font-weight: 600;
+        }
+
+        .program-break {
+            background-color: #e9ecef;
+            font-weight: 600;
+        }
+
+        .program-poster {
+            background-color: #e9ecef;
+            font-weight: 600;
+        }
+
+        .program-fill-4 {
+            background-color: #f9bbd0;
+        }
+
+        .program-fill-5 {
+            background-color: #ffe0b2;
+        }
+
+        .program-fill-6 {
+            background-color: #ffe0b2;
+        }
+
+        .program-fill-7 {
+            background-color: #dcedc8;
+        }
+
+        .program-fill-8 {
+            background-color: #e4f3fe;
+        }
+
+        .program-fill-9 {
+            background-color: #dcedc8;
         }
     </style>
-    
-    <iframe id="programFrame" src="./static/materials/program-list.html?v=2" style="width: 100%; border: none;" onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';"></iframe>
 
-    <h3 class="title is-3" id="posters">Poster Sessions and Demos</h3>
-    
-    <div class="notification is-info is-light" style="margin-bottom: 2em;">
-        <p><strong>Poster and Demo Sessions</strong></p>
-        <ul style="margin-top: 0.5em;">
-            <li>Cells <span style="color: #cc0000; font-weight: bold;">highlighted in red</span> indicate spotlight posters. A short video for each spotlight poster can be found on<a href="https://www.youtube.com/@iccp-conference" target="_blank"> ICCP's YouTube channel  </a> .</li>
-            <li>Cells <span style="color: #007dd6; font-weight: bold;">highlighted in blue</span> indicate posters of accepted papers.</li>
-            <li>Demos are indexed by D-#.</li>
-            <li>The poster board dimension is 3' (wide) x 4' (tall), portrait orientation.</li>
-            <li>For poster printing services, we recommend <a href="https://utposter.com/" target="_blank">UTPoster.com</a>, a nearby printing store that specializes in academic poster printing.</li>
-        </ul>
-    </div>
-    
-    <h4 class="title is-4" style="margin-top:2em;">Monday, July 21st, 2025</h4>
-    <hr>
+    <h3 class="title is-4 program-day">Monday, July 13th, 2026</h3>
     <div class="table-container">
-        <table class="table is-striped is-fullwidth">
+        <table class="table is-fullwidth program-table">
             <thead>
                 <tr>
-                    <th>Board No.</th>
-                    <th>Title</th>
-                    <th>Authors' names</th>
+                    <th>Time</th>
+                    <th>Code</th>
+                    <th>Session / Presentation</th>
                 </tr>
             </thead>
             <tbody>
-                    <tr class="red-cell">
-                    <td>1</td>
-                    <td>Doppler Single-Photon Lidar</td>
-                    <td>Ruangrawee Kitichotkul (Boston University), Joshua Rapp (Mitsubishi Electric Research Laboratories), Yanting Ma (Mitsubishi Electric Research Laboratories), Hassan Mansour (Mitsubishi Electric Research Laboratories)</td>
+                <tr class="program-session">
+                    <td class="program-time">8:30-9:25</td>
+                    <td class="program-code"></td>
+                    <td class="">Opening Session &amp; Keynote</td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Deep Hardware Modality Fusion for Image Segmentation</td>
-                    <td>Yi Liu (Osaka University), Sudhakar Kumawat (Osaka University), Nagahara Hajime (Osaka University)</td>
+                <tr class="program-session">
+                    <td class="program-time program-fill-4">8:30</td>
+                    <td class="program-code program-fill-4"></td>
+                    <td class="program-fill-4">Welcome &amp; Awards</td>
                 </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Cricket: A Self-Powered Chirping Pixel</td>
-                    <td>Shree K. Nayar (Columbia University), Jeremy Klotz (Columbia University), Nikhil Nanda (Columbia University), Mikhail Fridberg (ADSP Consulting)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-5">8:40</td>
+                    <td class="program-code program-fill-5">MK1</td>
+                    <td class="program-fill-5">Computational Photography in the Age of Generative AI<br><em>Peyman Milanfar</em></td>
                 </tr>
-                <tr class="red-cell">
-                    <td>4</td>
-                    <td>Event fields: Capturing light fields at high speed, resolution, and dynamic range</td>
-                    <td>Ziyuan Qu (Dartmouth College), Zihao Zou (UNC Chapel Hill), Vivek Boominathan (Rice University), Praneeth Chakravarthula (UNC Chapel Hill), Adithya Pediredla (Dartmouth College)</td>
+                <tr class="program-session">
+                    <td class="program-time">9:25-10:25</td>
+                    <td class="program-code"></td>
+                    <td class="">Ptychography &amp; Trust</td>
                 </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Revealing the 3D Cosmic Web through Gravitationally Constrained Neural Fields</td>
-                    <td>Brandon Zhao (Caltech), Aviad Levis (University of Toronto), Liam Connor (Harvard & Smithsonian Center for Astrophysics), Pratul P. Srinivasan (Google Deepmind), Katherine L. Bouman (Caltech)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">9:25</td>
+                    <td class="program-code program-fill-7">MI1</td>
+                    <td class="program-fill-7">Trustworthy computational imaging with uncertainty quantification<br><em>Kristina Monakhova</em></td>
                 </tr>
-                <tr class="red-cell">
-                    <td>6</td>
-                    <td>Rapid wavefront shaping using an optical gradient acquisition</td>
-                    <td>Sagi Monin (Technion), Marina Alterman (Technion), Anat Levin (Technion)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">9:45</td>
+                    <td class="program-code program-fill-7">MI2</td>
+                    <td class="program-fill-7">Building the future of atom-by-atom materials characterization with electron ptychography<br><em>Pinshane Huang</em></td>
                 </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Time of the Flight of the Gaussians: Optimizing Depth Indirectly in Dynamic Radiance Fields</td>
-                    <td>Runfeng Li (Brown University), Mikhail Okunev (Brown University), Zixuan Guo (Brown University), Anh Ha Duong (Brown University), Christian Richardt (Meta Reality Labs), Matthew O'Toole (Carnegie Mellon University), James Tompkin (Brown University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">10:05</td>
+                    <td class="program-code program-fill-7">MI3</td>
+                    <td class="program-fill-7">Electron tomography and ptychography with end-to-end parameter refinement and deep learning regularization<br><em>Colin Ophus</em></td>
                 </tr>
-                <tr class="red-cell">
-                    <td>8</td>
-                    <td>PanDORA: Casual HDR Radiance Acquisition for Indoor Scenes</td>
-                    <td>Mohammad Reza Karimi Dastjerdi (Universite Laval), Frédéric Fortier-Chouinard (Universite Laval), Dominique Tanguay-Gaudreau (Universite Laval), Yannick Hold-Geoffroy (Adobe), Claude MH Demers (Universite Laval), Marc Hébert (Universite Laval), Nima Kalantari (Texas A&M University), Jean-Francois Lalonde (Universite Laval)</td>
+                <tr class="program-break">
+                    <td class="program-time">10:25-10:55</td>
+                    <td class="program-code"></td>
+                    <td class="">Coffee Break</td>
                 </tr>
-                <tr>
-                    <td>9</td>
-                    <td>FotoBot: An Embodied AI robot system for photography</td>
-                    <td>Dawei Wang (TransGP), Xinzheng Tang (The University of Hong Kong)</td>
+                <tr class="program-session">
+                    <td class="program-time">10:55-12:20</td>
+                    <td class="program-code"></td>
+                    <td class="">Generative Models for Inverse Imaging</td>
                 </tr>
-                <tr>
-                    <td>10</td>
-                    <td>Scene-Adaptive Patch-Based Compressive Video Sensing</td>
-                    <td>Yuta Murakami (Osaka University), Michitaka Yoshida (Okayama University), Hajime Nagahara (Osaka University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">10:55</td>
+                    <td class="program-code program-fill-7">MI4</td>
+                    <td class="program-fill-7">The Role of 3D in Generative Media<br><em>Pratul Srinivasan</em></td>
                 </tr>
-                <tr>
-                    <td>11</td>
-                    <td>Scintillation Event Imaging with a SPAD Camera</td>
-                    <td>Alex Bocchieri (University of Wisconsin - Madison), Andreas Velten (University of Wisconsin - Madison)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">11:15</td>
+                    <td class="program-code program-fill-8">MP1</td>
+                    <td class="program-fill-8">DCDP: Decoupled Data Consistency via Diffusion Purification for Inverse Problems</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>12</td>
-                    <td>A Monte Carlo Rendering Framework for Simulating Optical Heterodyne Detection</td>
-                    <td>Juhyeon Kim (Dartmouth College), Craig Benko (Aurora Innovation), Magnus Wrenninge (Aurora Innovation), Ryusuke Villemin (Aurora Innovation), Zeb Barber (Aurora Innovation), Wojceich Jarosz (Dartmouth College), Adithya Pediredla (Dartmouth College)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">11:30</td>
+                    <td class="program-code program-fill-8">MP2</td>
+                    <td class="program-fill-8">Q-Agent: Quality-Driven Chain-of-Thought Image Restoration Agent through Robust Multimodal Large Language Model</td>
                 </tr>
-                <tr>
-                    <td>13</td>
-                    <td>Hierarchical Material Recognition from Local Appearance</td>
-                    <td>Matthew Beveridge (Columbia University), Shree K. Nayar (Columbia University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">11:45</td>
+                    <td class="program-code program-fill-8">MP3</td>
+                    <td class="program-fill-8">Imaging-101: Benchmarking LLM Agents for Computational Imaging</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>14</td>
-                    <td>Towards Passive Non-Line-of-Sight 3D Tracking for Hidden Persons and UAVs</td>
-                    <td>Elizabeth Lopez (Arizona State University), Shenbagaraj Kannapiran (University of Pennsylvania), Sreenithy Chandran (Arizona State University), Spring Berman (Arizona State University), Suren Jayasuriya (Arizona State University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">12:00</td>
+                    <td class="program-code program-fill-7">MI5</td>
+                    <td class="program-fill-7">Structured Generative Models for Ambiguous Inverse Rendering<br><em>Todd Zickler</em></td>
                 </tr>
-                <tr>
-                    <td>15</td>
-                    <td>Modeling 3D dynamics in atomic electron tomography with implicit neural representations</td>
-                    <td>Tiffany Chien (UC Berkeley), Nalini Singh (UC Berkeley), Colin Ophus (Stanford University), Laura Waller (UC Berkeley)</td>
+                <tr class="program-break">
+                    <td class="program-time">12:20-13:30</td>
+                    <td class="program-code"></td>
+                    <td class="">Lunch</td>
                 </tr>
-                <tr>
-                    <td>16</td>
-                    <td>A New Active Hyperspectral Dataset for NLOS Imaging</td>
-                    <td>Forrest B. Peterson (University of Wisconsin - Madison), Talah Sultan (University of Wisconsin - Madison), Khadijeh Masumnia-Bisheh (University of Wisconsin - Madison), Andreas Velten (University of Wisconsin - Madison)</td>
+                <tr class="program-session">
+                    <td class="program-time">13:30-14:15</td>
+                    <td class="program-code"></td>
+                    <td class="">Keynote</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>17</td>
-                    <td>NeST: Neural Stress Tensor Tomography by leveraging 3D Photoelasticity</td>
-                    <td>Akshat Dave (MIT), Tianyi Zhang (Rice University), Aaron Young (MIT), Ramesh Raskar (MIT), Wolfgang Heidrich (KAUST), Ashok Veeraraghavan (Rice University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-5">13:30</td>
+                    <td class="program-code program-fill-5">MK2</td>
+                    <td class="program-fill-6">Computational photography and AI in mobile photography<br><em>Marc Levoy</em></td>
                 </tr>
-                <tr>
-                    <td>18</td>
-                    <td>Two-dimensional Ultrafast Electron Imaging by Spatiotemporal Sparse-view Computed Tomography</td>
-                    <td>Yingming Lai (Institut National de la Recherche Scientifique), Samik Roy Moulik (Institut National de la Recherche Scientifique), Aida Amini (Institut National de la Recherche Scientifique), Patrick Soucy (Institut National de la Recherche Scientifique), Kenneth R. Beyerlein (Institut National de la Recherche Scientifique), Jinyang Liang (Institut National de la Recherche Scientifique)</td>
+                <tr class="program-session">
+                    <td class="program-time">14:15-15:10</td>
+                    <td class="program-code"></td>
+                    <td class="">AI in Computational Imaging</td>
                 </tr>
-                <tr>
-                    <td>19</td>
-                    <td>MaDCoW: Marginal Distortion Correction for Wide-Angle Photography with Arbitrary Objects</td>
-                    <td>Kevin Zhang (UMD), Jia-Bin Huang (UMD), Jose Echevarria (Adobe), Stephen DiVerdi (Adobe), Aaron Hertzmann (Adobe)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">14:15</td>
+                    <td class="program-code program-fill-7">MI6</td>
+                    <td class="program-fill-7">Computational Displays<br><em>Grace Kuo</em></td>
                 </tr>
-                <tr>
-                    <td>20</td>
-                    <td>Using a Distance Sensor to Detect Deviations in a Planar Surface</td>
-                    <td>Carter Sifferman (University of Wisconsin-Madison), William Sun (University of Wisconsin-Madison), Mohit Gupta (University of Wisconsin-Madison), Michael Gleicher (University of Wisconsin-Madison)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">14:35</td>
+                    <td class="program-code program-fill-7">MI7</td>
+                    <td class="program-fill-7">Learning to Sense — Joint Optimization of Imaging System and Machine Learning Parameters<br><em>Michael Moeller</em></td>
                 </tr>
-                <tr class="red-cell">
-                    <td>21</td>
-                    <td>Hi-SPAD: Video-Rate Hyperspectral Inference with Single Photon Sensors</td>
-                    <td>Haejoon Lee (Carnegie Mellon University), Mohit Gupta (University of Wisconsin–Madison), Aswin Sankaranarayanan (Carnegie Mellon University), Vijayakumar Bhagavatula (Carnegie Mellon University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">14:55</td>
+                    <td class="program-code program-fill-8">MP4</td>
+                    <td class="program-fill-8">ShuffleFlow: Scalable Posterior Inference for Bayesian Inverse Imaging</td>
                 </tr>
-                <tr>
-                    <td>22</td>
-                    <td>High-fidelity Diffraction Simulator for Computational Optics</td>
-                    <td>Xin Liu (The University of Hong Kong), Haoyu Wei (The University of Hong Kong), Yiwen Hu (Zhejiang University), Xiang Hao (Zhejiang University), Yifan (Evan) Peng (The University of Hong Kong)</td>
+                <tr class="program-poster">
+                    <td class="program-time">15:10-15:30</td>
+                    <td class="program-code"></td>
+                    <td class="">Monday Poster Spotlights</td>
                 </tr>
-                <tr>
-                    <td>23</td>
-                    <td>Camera-Based Airflow Imaging Using Physics-Informed Schlieren Tomography</td>
-                    <td>Arjun Teh (Carnegie Mellon University), Wael Hajj-Ali (Mitsubishi Electric Research Laboratories), Joshua Rapp (Mitsubishi Electric Research Laboratories), Hassan Mansour (Mitsubishi Electric Research Laboratories)</td>
+                <tr class="program-break">
+                    <td class="program-time">15:30-16:30</td>
+                    <td class="program-code"></td>
+                    <td class="">Monday Posters, Demos &amp; Coffee</td>
                 </tr>
-                <tr>
-                    <td>24</td>
-                    <td>Gaussian Wave Splatting for Computer Generated Holography</td>
-                    <td>Suyeon Choi (Stanford University), Brian Chao (Stanford University), Jackie Yang (Stanford University), Manu Gopakumar (Stanford University), Gordon Wetzstein (Stanford University)</td>
-                </tr>   
-                <tr class="blue-cell">
-                    <td>25</td>
-                    <td>Tomographic Sparse View Selection Using the View Covariance Loss</td>
-                    <td>Jingsong Lin, Amir Koushyar Ziabari, S. V. Venkatakrishnan, Obaidullah Rahman, Gregery T. Buzzard, Charles A. Bouman</td>
+                <tr class="program-session">
+                    <td class="program-time">16:30-18:00</td>
+                    <td class="program-code"></td>
+                    <td class="">Imaging Beyond Visible Light</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>26</td>
-                    <td>A Gaussian Parameterization for Direct Atomic Structure Identification in Electron Tomography</td>
-                    <td>Nalini M Singh, Tiffany Chien, Arthur R. C. McCray, Colin Ophus, Laura Waller</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-9">16:30</td>
+                    <td class="program-code program-fill-9">MI8</td>
+                    <td class="program-fill-9">Computational imaging with light, heat and sound<br><em>Srinivasa Narasimhan</em></td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>27</td>
-                    <td>Zero-Phase Phasor Fields for Non-Line-of-Sight Imaging</td>
-                    <td>Pablo Luesia-Lahoz, Talha Sultan, Forrest B. Peterson, Andreas Velten, Diego Gutierrez, Adolfo Muñoz</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">16:50</td>
+                    <td class="program-code program-fill-7">MI9</td>
+                    <td class="program-fill-7">Recovering 3D structure from 2D intraoperative images<br><em>Polina Golland</em></td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>28</td>
-                    <td>Learned Off-Aperture Encoding for Wide Field-of-View RGBD Imaging</td>
-                    <td>Haoyu Wei, Xin Liu, Yuhui Liu, Qiang Fu, Wolfgang Heidrich, Edmund Y. Lam, Yifan Peng</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-9">17:10</td>
+                    <td class="program-code program-fill-9">MI10</td>
+                    <td class="program-fill-9">Vision from Vibrations: When Motion Becomes Meaning<br><em>Mark Sheinin</em></td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>29</td>
-                    <td>Structured Light with a Million Light Planes per Second</td>
-                    <td>Dhawal Sirikonda, Praneeth Chakravarthula, Ioannis Gkioulekas, Adithya Pediredla</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">17:30</td>
+                    <td class="program-code program-fill-8">MP5</td>
+                    <td class="program-fill-8">Revealing subtle Heat Flows all around us using Microbolometric Videos</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>30</td>
-                    <td>Depth Dynamics via One-Bit Frequency Probing in Embedded Direct Time-of-Flight Sensing</td>
-                    <td>Seth Lindgren, Benjamin Johnson, Lucas J. Koerner</td>
-                </tr>
-                <tr class="blue-cell">
-                    <td>31</td>
-                    <td>Event2Audio: Event-Based Optical Vibration Sensing</td>
-                    <td>Mingxuan Cai, Dekel Galor, Amit Pal Singh Kohli, Jacob L. Yates, Laura Waller</td>
-                </tr>
-                <tr class="red-cell">
-                    <td>D-1</td>
-                    <td>Compact, synchronized camera arrays for new microscopy applications and beyond</td>
-                    <td>Clare Cook (Duke University), Kanghyun Kim (Duke University), Josh Lerner (Duke University), Haitao Chen (Duke University), Kevin Zhou (Univ. Michigan), Mark Harfouche (Ramona Optics Inc.), Roarke Horstmeyer (Duke University and Ramona Optics Inc.)</td>
-                </tr>
-                <tr>
-                    <td>D-2</td>
-                    <td>EBS-EKF: Accurate and High Frequency Event-based Star Tracking</td>
-                    <td>Albert W Reed (Sandia), Connor Hashemi (Kitware), Dennis Melamed (Kitware), Nitesh Menon (Kitware), Keigo Hirakawa (University of Dayton), Scott McCloskey (Kitware)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">17:45</td>
+                    <td class="program-code program-fill-8">MP6</td>
+                    <td class="program-fill-8">Ultrasound Tomography of Musculoskeletal Tissues with Generative Neural Physics</td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <h4 class="title is-4" style="margin-top:2em;">Tuesday, July 22nd, 2025</h4>
-    <hr>
+    <h3 class="title is-4 program-day">Tuesday, July 14th, 2026</h3>
     <div class="table-container">
-        <table class="table is-striped is-fullwidth">
+        <table class="table is-fullwidth program-table">
             <thead>
                 <tr>
-                    <th>Board No.</th>
-                    <th>Title</th>
-                    <th>Authors' names</th>
+                    <th>Time</th>
+                    <th>Code</th>
+                    <th>Session / Presentation</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Minimalist Vision with Freeform Pixels</td>
-                    <td>Jeremy Klotz (Columbia University), Shree K. Nayar (Columbia University)</td>
+                <tr class="program-session">
+                    <td class="program-time">08:30-09:50</td>
+                    <td class="program-code"></td>
+                    <td class="">Wavefronts and Aberrations</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>2</td>
-                    <td>Noise-Coded Illumination for Forensic and Photometric Video Analysis</td>
-                    <td>Peter F. Michael (Cornell University), Zekun Hao (Cornell Tech), Serge Belongie (University of Copenhagen), Abe Davis (Cornell University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">8:30</td>
+                    <td class="program-code program-fill-7">TI1</td>
+                    <td class="program-fill-7">Extreme Adaptive Optics: Toward Exo-Earth Imaging and Deep-Tissue Microscopy<br><em>He Sun</em></td>
                 </tr>
-                <tr class="red-cell">
-                    <td>3</td>
-                    <td>NnD: Diffusion based Generation of Physically Nonnegative Objects</td>
-                    <td>Nadav Torem (Technion-Israel Institute of Technology), Tamar Sde Chen (Technion-Israel Institute of Technology), Yoav Y. Schechner (Technion-Israel Institute of Technology)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">8:50</td>
+                    <td class="program-code program-fill-8">TP1</td>
+                    <td class="program-fill-8">Telemetry is a Sensor: Opportunistic Wavefront Estimation for JWST</td>
                 </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Swept coded aperture real-time femtophotography</td>
-                    <td>Miguel Marquez (Institut National de la Recherche Scientifique), Jingdan Liu (Institut National de la Recherche Scientifique), Yingming Lai (Institut National de la Recherche Scientifique), Heide Ibrahim (Institut National de la Recherche Scientifique), Katherine Légaré (Institut National de la Recherche Scientifique), Philippe Lassonde (Institut National de la Recherche Scientifique), Xianglei Liu (Institut National de la Recherche Scientifique), Michel Hehn (Université de Lorraine), Stéphane Mangin (Université de Lorraine), Grégory Malinowski (Université de Lorraine), Zhengyan Li (Université de Lorraine), François Légaré (Institut National de la Recherche Scientifique), Jinyang Liang (Institut National de la Recherche Scientifique)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">9:05</td>
+                    <td class="program-code program-fill-8">TP2</td>
+                    <td class="program-fill-8">Towards Blind Lens Aberration Correction via Large LensLib Pre-training and Discrete Degradation Priors</td>
                 </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Deep Optics Design for Two-Shot Depth Estimation</td>
-                    <td>Hasindu Kariyawasam (Cornell University), Kristina Monakhova (Cornell University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">9:20</td>
+                    <td class="program-code program-fill-8">TP3</td>
+                    <td class="program-fill-8">Learnable Coded Aperture for Real-Time Imaging Through Turbulence</td>
                 </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Visual Surface Wave Elastography: Revealing Subsurface Physical Properties via Visible Surface Waves</td>
-                    <td>Berthy Feng (Caltech), Alex Ogren (Caltech), Jihoon Ahn (Caltech), Katie Bouman (Caltech), Chiara Daraio (Caltech)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">9:35</td>
+                    <td class="program-code program-fill-8">TP4</td>
+                    <td class="program-fill-8">Towards Extended Field-of-View Wavefront Shaping: A Benchmark of Structural Priors and Phase Accuracy</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>7</td>
-                    <td>QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems</td>
-                    <td>Cassandra Tong Ye (Cornell University), Shamus Li (Cornell University), Tyler King (Cornell University), Kristina Monakhova (Cornell University)</td>
+                <tr class="program-break">
+                    <td class="program-time">09:50-10:10</td>
+                    <td class="program-code"></td>
+                    <td class="">Coffee Break</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>8</td>
-                    <td>Single-Shot Novel View Synthesis with a Multiplexed Light Field Camera</td>
-                    <td>Shamus Li (Cornell University), Vi Tran (Robinhood Markets), Ruiming Cao (Chan Zuckerberg Imaging Institute), Laura Waller (UC Berkeley), Kristina Monakhova (Cornell University), Sara Fridovich-Keil (Georgia Tech)</td>
+                <tr class="program-session">
+                    <td class="program-time">10:10-10:55</td>
+                    <td class="program-code"></td>
+                    <td class="">Keynote</td>
                 </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Achieving aberration invariance through wavefront randomization</td>
-                    <td>Amit Kohli (UC Berkeley), Anastasios Angelopoulos (UC Berkeley), Neerja Aggarwal (UC Berkeley), Laura Waller (UC Berkeley)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-5">10:10</td>
+                    <td class="program-code program-fill-5">TK1</td>
+                    <td class="program-fill-6">Generating pixels: past, present, and future<br><em>Steve Seitz</em></td>
                 </tr>
-                <tr class="red-cell">
-                    <td>10</td>
-                    <td>Vision with Heat and Light</td>
-                    <td>Mani Ramanagopal (Carnegie Mellon University), Sriram Narayanan (Carnegie Mellon University), Zeqing Yuan (Carnegie Mellon University), Akihiko Oharazawa (Carnegie Mellon University), Mark Sheinin (Carnegie Mellon University), Aswin C. Sankaranarayanan (Carnegie Mellon University), Srinivasa G. Narasimhan (Carnegie Mellon University)</td>
+                <tr class="program-session">
+                    <td class="program-time">10:55-12:20</td>
+                    <td class="program-code"></td>
+                    <td class="">Coherent Optics and Holography</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>11</td>
-                    <td>Resolving Shape Ambiguities Using Heat Conduction and Shading</td>
-                    <td>Akihiko Oharazawa, Sriram Narayanan, Mani Ramanagopal, Srinivasa Narasimhan</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-9">10:55</td>
+                    <td class="program-code program-fill-7">TI2</td>
+                    <td class="program-fill-7">Coherent Computational Imaging with Synthetic Waves<br><em>Florian WIllomitzer</em></td>
                 </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-9">11:15</td>
+                    <td class="program-code program-fill-7">TI3</td>
+                    <td class="program-fill-7">Computational 3D Phase Imaging in Reflection<br><em>Lei Tian</em></td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">11:35</td>
+                    <td class="program-code program-fill-8">TP5</td>
+                    <td class="program-fill-8">Mutual Intensity Factorization for Computer-Generated Holography</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">11:50</td>
+                    <td class="program-code program-fill-8">TP6</td>
+                    <td class="program-fill-8">Pancake Multisource Holography</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">12:05</td>
+                    <td class="program-code program-fill-8">TP7</td>
+                    <td class="program-fill-8">Learning Superoscillatory Point Spread Functions</td>
+                </tr>
+                <tr class="program-break">
+                    <td class="program-time">12:20-13:30</td>
+                    <td class="program-code"></td>
+                    <td class="">Lunch</td>
+                </tr>
+                <tr class="program-session">
+                    <td class="program-time">13:30-15:10</td>
+                    <td class="program-code"></td>
+                    <td class="">Unique Imagers</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">13:30</td>
+                    <td class="program-code program-fill-7">TI4</td>
+                    <td class="program-fill-7">Computational Photography in the Toilet<br><em>Tali Treibitz</em></td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">13:50</td>
+                    <td class="program-code program-fill-7">TI5</td>
+                    <td class="program-fill-7">Event-based Photometric Imaging<br><em>Boxin Shi</em></td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">14:10</td>
+                    <td class="program-code program-fill-7">TI6</td>
+                    <td class="program-fill-7">Computational Photography for Cinematic Visual Effects<br><em>Paul Debevec</em></td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">14:30</td>
+                    <td class="program-code program-fill-7">TI7</td>
+                    <td class="program-fill-7">Why have so many different eyes evolved?<br><em>Jason Fleischer </em></td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">14:50</td>
+                    <td class="program-code program-fill-7">TI8</td>
+                    <td class="program-fill-7">Computational Color in Animal Vision<br><em>Emma Alexander</em></td>
+                </tr>
+                <tr class="program-poster">
+                    <td class="program-time">15:10-15:30</td>
+                    <td class="program-code"></td>
+                    <td class="">Tuesday Poster Spotlights</td>
+                </tr>
+                <tr class="program-break">
+                    <td class="program-time">15:30-16:30</td>
+                    <td class="program-code"></td>
+                    <td class="">Tuesday Posters, Demos &amp; Coffee</td>
+                </tr>
+                <tr class="program-session">
+                    <td class="program-time">16:30-18:05</td>
+                    <td class="program-code"></td>
+                    <td class="">Lensless imaging &amp; Restoration</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">16:30</td>
+                    <td class="program-code program-fill-7">TI9</td>
+                    <td class="program-fill-7">Design and Implementation of Task-Specific Lensless Cameras<br><em>Seung ah Lee</em></td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">16:50</td>
+                    <td class="program-code program-fill-8">TP8</td>
+                    <td class="program-fill-8">LFD: Enabling Real-World Lensless Face Recognition with a Large-Scale Dataset</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">17:05</td>
+                    <td class="program-code program-fill-8">TP9</td>
+                    <td class="program-fill-8">Null-Space Diffusion Distillation Unlocks Speed, Fidelity and Realism in Lensless Imaging</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">17:20</td>
+                    <td class="program-code program-fill-8">TP10</td>
+                    <td class="program-fill-8">DepthShield: Optical Depth Encoding for Image Tampering Detection</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">17:35</td>
+                    <td class="program-code program-fill-8">TP11</td>
+                    <td class="program-fill-8">Sensor-Centric RAW-Domain Compressive Sampling for Video Super-Resolution</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">17:50</td>
+                    <td class="program-code program-fill-8">TP12</td>
+                    <td class="program-fill-8">Why Low-Light Cameras Go Color Blind: Removing Color Bias in Raw Denoising</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-                <tr class="red-cell">
-                    <td>12</td>
-                    <td>Spatio-Temporal Neural Operators as Surrogates of Large-Scale Simulations for Black Hole Imaging</td>
-                    <td>Renbo Tu (University of Toronto/Vector Institute), Ali SaraerToosi (University of Toronto/Vector Institute), Kamyar Azizzadenesheli (NVIDIA), Aviad Levis (University of Toronto/Vector Institute)</td>
-                </tr>
+    <h3 class="title is-4 program-day">Wednesday, July 15th, 2026</h3>
+    <div class="table-container">
+        <table class="table is-fullwidth program-table">
+            <thead>
                 <tr>
-                    <td>13</td>
-                    <td>Extending the depth of field of spatial frequency domain imaging with point spread function engineering</td>
-                    <td>Dylan Dao (University of Toronto), Jie Jiao (University of Toronto), Lindsay Kuramoto (University of Toronto), Ofer Levi (University of Toronto)</td>
+                    <th>Time</th>
+                    <th>Code</th>
+                    <th>Session / Presentation</th>
                 </tr>
-                <tr>
-                    <td>14</td>
-                    <td>Reconstructing Protoplanetary Disks with Differentiable Radiative Transfer and Neural Fields</td>
-                    <td>Nhan Luong (University of Toronto), Richard Teague (MIT), Kevin Flaherty (Williams College), Kathrine. L. Bouman (Caltech), Marcelo Barraza-Alfaro (MIT), Aviad Levis (University of Toronto)</td>
+            </thead>
+            <tbody>
+                <tr class="program-session">
+                    <td class="program-time">8:30-10:10</td>
+                    <td class="program-code"></td>
+                    <td class="">NLOS Imaging &amp; Hidden Scene Recovery</td>
                 </tr>
-                <tr>
-                    <td>15</td>
-                    <td>In vivo 3D ultrasound computed tomography of musculoskeletal tissues with generative neural PDE solvers</td>
-                    <td>Zhijun Zeng (Tsinghua University), Youjia Zheng (Peking University), Chang Su (Chinese Academy of Sciences), Qianhang Wu (Peking University), Hao Hu (Peking University), Zeyuan Dong (Chinese Academy of Sciences), Shan Gao (Peking University Third Hospital), Yang Lv (Peking University Third Hospital), Rui Tang (Peking University Third Hospital), Ligang Cui (Peking University Third Hospital), Zhiyong Hou (The Third Hospital of Hebei Medical University), Weijun Lin (Chinese Academy of Sciences), Zuoqiang Shi (Tsinghua University), Yubing Li (Peking University), He Sun (Peking University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">8:30</td>
+                    <td class="program-code program-fill-7">WI1</td>
+                    <td class="program-fill-7">Of Photons and Pixels: How single photon sensing changes computational imaging<br><em>Andreas Velten</em></td>
                 </tr>
-                <tr>
-                    <td>16</td>
-                    <td>End-to-End LiDAR optimization for point cloud registration</td>
-                    <td>Siddhant Katyan (Université Laval), Marc-Andre Gardner (Bentley Systems), Jean-Francois Lalonde (Université Laval)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">8:50</td>
+                    <td class="program-code program-fill-8">WP1</td>
+                    <td class="program-fill-8">FermatFormer: A Fermat Optics Based Neural Architecture for Non-line-of-sight Imaging</td>
                 </tr>
-                <tr>
-                    <td>17</td>
-                    <td>Learned Optics for Snapshot Wide-FoV and Hyperspectral Imaging</td>
-                    <td>Haoyu Wei (HKU), Yifan (Evan) Peng (Princeton University), Zheng Shi (Tongji University), Xiong Dun (KAUST), Xin Liu (KAUST), Yuhui Liu (KAUST), Qiang Fu (KAUST), Shiyu Dong (KAUST), Zhanshan Wang (KAUST), Xinbin Cheng (KAUST), Felix Heide (Princeton University), Wolfgang Heidrich (KAUST), Edmund Y. Lam (HKU)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">9:05</td>
+                    <td class="program-code program-fill-8">WP2</td>
+                    <td class="program-fill-8">Fundamental Bounds for Recovery from SPAD Signals</td>
                 </tr>
-                <tr>
-                    <td>18</td>
-                    <td>Time-of-Flight Imaging with a Conventional Camera Based on Polarization-Modulated Optical Homodyne</td>
-                    <td>Ayaka Ebisu (University of Tsukuba), Takahito Aoto (Optech Innovation LLC.), Tsuyoshi Takatani (University of Tsukuba)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">9:20</td>
+                    <td class="program-code program-fill-8">WP3</td>
+                    <td class="program-fill-8">Trapezoidal Grid Reconstruction for Efficient Non-Line-of-Sight Imaging</td>
                 </tr>
-                <tr>
-                    <td>19</td>
-                    <td>Vision–Language Models as Differentiable Semantic and Spatial Rewards for Text-to-3D Generation</td>
-                    <td>Weimin Bai (Peking University), Yubo Li (Peking University), Weijian Luo (Peking University), Wenzheng Chen (Peking University), He Sun (Peking University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">9:35</td>
+                    <td class="program-code program-fill-8">WP4</td>
+                    <td class="program-fill-8">High-Flux Count-Free Single-Photon 3D Cameras</td>
                 </tr>
-                <tr>
-                    <td>20</td>
-                    <td>VibrantLeaves: A principled parametric image generator for training deep restoration models</td>
-                    <td>Raphael Achddou (EPFL), Yann Gousseau (Telecom Paris), Said Ladjal (Telecom Paris), Sabine Süsstrunk (EPFL)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">9:50</td>
+                    <td class="program-code program-fill-7">WI2</td>
+                    <td class="program-fill-7">Imaging with Single Photon Cameras<br><em>Aswin Sankaranarayanan</em></td>
                 </tr>
-                <tr>
-                    <td>21</td>
-                    <td>Neural Dynamic Modes: Computational Imaging of Dynamical Systems from Sparse Observations</td>
-                    <td>Ali Saraer Toosi (University of Toronto), Renbo Tu (University of Toronto), Kamyar Azizzadenesheli (NVIDIA), Aviad Levis (University of Toronto)</td>
+                <tr class="program-break">
+                    <td class="program-time">10:10-10:30</td>
+                    <td class="program-code"></td>
+                    <td class="">Coffee Break</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>22</td>
-                    <td>Inverse Synthetic Aperture Fourier Ptychography</td>
-                    <td>Matthew Chan (University of Maryland), Casey Pellizzari (US Air Force Academy), Christopher Metzler (University of Maryland)</td>
+                <tr class="program-session">
+                    <td class="program-time">10:30-11:15</td>
+                    <td class="program-code"></td>
+                    <td class="">Keynote</td>
                 </tr>
-                <tr class="red-cell">
-                    <td>23</td>
-                    <td>Collaborative On-Sensor Array Cameras</td>
-                    <td>Jipeng Sun (Princeton University), Kaixuan Wei (KAUST), Thomas Eboli (Université Paris-Saclay), Congli Wang (Princeton University), Cheng Zheng (Princeton University), Zhihao Zhou (University of Washington), Arka Majumdar (University of Washington), Wolfgang Heidrich (KAUST), Felix Heide (Princeton University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-5">10:30</td>
+                    <td class="program-code program-fill-5">WK1</td>
+                    <td class="program-fill-5">Processing light with nanophotonic structures<br><em>Shanhui Fan</em></td>
                 </tr>
-
-                <tr class="blue-cell">
-                    <td>24</td>
-                    <td>Holospeed: High-Speed Holographic Displays for Dynamic Content</td>
-                    <td>Dorian Chan, Oliver Cossairt, Nathan Matsuda, Grace Kuo</td>
+                <tr class="program-session">
+                    <td class="program-time">11:15-12:20</td>
+                    <td class="program-code"></td>
+                    <td class="">Physics for Imaging</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>25</td>
-                    <td>Predicting Important Photons for Energy-Efficient Single-Photon Videography</td>
-                    <td>Shantanu Gupta, Varun Sundar, Lucas J. Koerner, Claudio Bruschini, Edoardo Charbon, Mohit Gupta</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">11:15</td>
+                    <td class="program-code program-fill-7">WI3</td>
+                    <td class="program-fill-7">Physically Grounded Generative Imaging<br><em>Jingyi Yu</em></td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>26</td>
-                    <td>Centroiding Point-Objects with Event Cameras</td>
-                    <td>Connor Hashemi, Dennis Melamed, Albert W. Reed, Nitesh Menon, Keigo Hirakawa, Scott McCloskey</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">11:35</td>
+                    <td class="program-code program-fill-8">WP5</td>
+                    <td class="program-fill-8">Henle Fiber Layer Polarizance-Enabled Pupil Detection for Eye Tracking</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>27</td>
-                    <td>Shape from Polarization of Thermal Emission and Reflection</td>
-                    <td>Kazuma Kitazawa, Tsuyoshi Takatani</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">11:50</td>
+                    <td class="program-code program-fill-8">WP6</td>
+                    <td class="program-fill-8">Spatial Polarization Multiplexing: Single-Shot Invisible Shape and Reflectance Recovery</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>28</td>
-                    <td>Single-Step Latent Diffusion for Underwater Image Restoration</td>
-                    <td>Jiayi Wu, Tianfu Wang, Md Abu Bakr Siddique, Md Jahidul Islam, Cornelia Fermuller, Yiannis Aloimonos, Christopher Metzler</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">12:05</td>
+                    <td class="program-code program-fill-8">WP7</td>
+                    <td class="program-fill-8">GAIL: Gaussian Anchors for Implicit Lateration of Radio Devices</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>29</td>
-                    <td>Dark Noise Diffusion: Noise Synthesis for Low-Light Image Denoising</td>
-                    <td>Liying Lu, Raphael Achddou, Sabine Süsstrunk</td>
+                <tr class="program-break">
+                    <td class="program-time">12:20-13:20</td>
+                    <td class="program-code"></td>
+                    <td class="">Lunch</td>
                 </tr>
-                <tr class="blue-cell">
-                    <td>30</td>
-                    <td>Super-Resolution with Structured Motion</td>
-                    <td>Gabby Litterio, Juan-David Lizarazo-Ferro, Pedro Felzenszwalb, Rashid Zia</td>
+                <tr class="program-session">
+                    <td class="program-time">13:20-14:25</td>
+                    <td class="program-code"></td>
+                    <td class="">Scene Representation and Editing</td>
                 </tr>
-                <tr>
-                    <td>D-1</td>
-                    <td>Non-Line-of-Sight Imaging with Low-Cost, Portable SPADs</td>
-                    <td>Siddharth Somasundaram (MIT), Aaron Young (MIT), Nicholas Tsao (MIT), Akshat Dave (MIT), Adithya Pediredla (Dartmouth), Ramesh Raskar (MIT)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">13:20</td>
+                    <td class="program-code program-fill-7">WI4</td>
+                    <td class="program-fill-7">Computational light-field synthesis for high-resolution 3D display and printing<br><em>Jiamin Wu</em></td>
                 </tr>
-                <tr>
-                    <td>D-2</td>
-                    <td>Spatially-varying Autofocus</td>
-                    <td>Yingsi Qin (Carnegie Mellon University), Aswin Sankaranarayanan (Carnegie Mellon University), Matthew O'Toole (Carnegie Mellon University)</td>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">13:40</td>
+                    <td class="program-code program-fill-8">WP8</td>
+                    <td class="program-fill-8">Editable Scene Geometry Recovery from a Single Image via Structured Programs Generation</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">13:55</td>
+                    <td class="program-code program-fill-8">WP9</td>
+                    <td class="program-fill-8">TranSplat: Instant Object Relighting in Gaussian Splatting via Spherical Harmonic Radiance Transfer</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">14:10</td>
+                    <td class="program-code program-fill-8">WP10</td>
+                    <td class="program-fill-8">PanDORA: Casual HDR Radiance Acquisition of Indoor Scenes for Image-based Lighting</td>
+                </tr>
+                <tr class="program-break">
+                    <td class="program-time">14:25-14:40</td>
+                    <td class="program-code"></td>
+                    <td class="">Coffee Break</td>
+                </tr>
+                <tr class="program-session">
+                    <td class="program-time">14:40-15:45</td>
+                    <td class="program-code"></td>
+                    <td class="">Imaging for Depth and Dynamics</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-7">14:40</td>
+                    <td class="program-code program-fill-7">WI5</td>
+                    <td class="program-fill-7">Understanding cellular dynamics and structure in multicellular systems<br><em>Gokul Upadhyayula</em></td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">15:00</td>
+                    <td class="program-code program-fill-8">WP11</td>
+                    <td class="program-fill-8">FoveaCam Duo: Foveated Stereo for Standoff Depth Sensing</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">15:15</td>
+                    <td class="program-code program-fill-8">WP12</td>
+                    <td class="program-fill-8">Gaussian Coded Aperture for Truly Real-Time Event-Based Optical Flow</td>
+                </tr>
+                <tr class="program-talk">
+                    <td class="program-time program-fill-8">15:30</td>
+                    <td class="program-code program-fill-8">WP13</td>
+                    <td class="program-fill-8">ShutterEvents: Shutter Modulation for Static-Dynamic Scene Recovery</td>
+                </tr>
+                <tr class="program-session">
+                    <td class="program-time">15:45-16:00</td>
+                    <td class="program-code"></td>
+                    <td class="">Closing Remarks</td>
                 </tr>
             </tbody>
         </table>
