@@ -35,12 +35,24 @@
 	<!-- Navigation Buttons -->
 	<nav class="hero container is-max-desktop" style="margin-bottom: -10vh;">
 		<div class="hero-body">
-			<h2 class="subtitle has-text-centered">
+			<div class="subtitle has-text-centered">
 			<a href="#home" class="button">Home</a>
 			<a href="#registration" class="button">Registration</a>
 			<a href="#venue" class="button">Venue</a>
 			<a href="#lodging" class="button">Lodging</a>
-			<a href="#program" class="button">Program</a>
+			<div class="dropdown is-hoverable">
+				<div class="dropdown-trigger">
+					<a href="#program" class="button" aria-haspopup="true" aria-controls="dropdown-menu-program">
+						Program &#x25BE;
+					</a>
+				</div>
+				<div class="dropdown-menu" id="dropdown-menu-program" role="menu">
+					<div class="dropdown-content">
+						<a href="#program/overview" class="dropdown-item">Program Overview</a>
+						<a href="#program/accepted-papers" class="dropdown-item">Accepted Papers</a>
+					</div>
+				</div>
+			</div>
 			<a href="#talks" class="button">Speakers</a>
 			<a href="#callforpapers" class="button">Call for Papers</a>
 			<a href="#callfordemos" class="button">Call for Posters & Demos</a>
@@ -114,7 +126,7 @@
 			<a href="#sponsors" class="button">Sponsors</a>
 			<a href="#awards" class="button">Awards</a>
 			<a href="#schedule" class="button">Schedule</a> -->
-			</h2>
+			</div>
 		</div>
 	</nav>
 
@@ -226,10 +238,11 @@
 		event.preventDefault();
 		const href = this.getAttribute('href');
 		const [pageId, sectionId] = href.substring(1).split('/'); // Split into page and section
+		const currentPageId = window.location.hash ? window.location.hash.substring(1).split('/')[0] : 'home';
 
-		if (window.location.hash !== `#${pageId}`) {
+		if (currentPageId !== pageId) {
 			// Load the main page first if not already loaded
-			history.pushState(null, null, `#${pageId}`);
+			history.pushState(null, null, href);
 			loadContent();
 			setTimeout(() => {
 			// Navigate to the section once the page is loaded
@@ -240,6 +253,7 @@
 			}, 50); // Wait for the content to load
 		} else {
 			// If already on the target page, navigate directly to the section
+			history.pushState(null, null, href);
 			const target = document.getElementById(sectionId);
 			if (target) {
 			target.scrollIntoView(); // Teleport to section
