@@ -348,17 +348,17 @@ a.button:hover {
 	margin-bottom: 1.5rem;
 }
 
-.winner-highlight {
+figure.winner-highlight {
 	margin: 0;
 	width: 100%;
 	cursor: pointer;
 }
 
-.winner-highlight:not(:first-child) {
+figure.winner-highlight:not(:first-child) {
 	margin-top: 0;
 }
 
-.winner-highlight:not(:last-child) {
+figure.winner-highlight:not(:last-child) {
 	margin-bottom: 0;
 }
 
